@@ -4,8 +4,6 @@ const Path = require('path');
 const Webpack = require('webpack');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
-require('es6-promise').polyfill();
-
 module.exports = {
 
   devtool: 'source-map',
