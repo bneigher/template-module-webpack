@@ -93,7 +93,7 @@ module.exports = {
     extensions: ['*', '.js', '.css', '.scss', '.html'],
     alias: {
       // Put any vendor aliases here
-      // dragula: Path.join(__dirname, '/node_modules/dragula/dist/dragula.min.css')
+      normalize: Path.join(__dirname, '/node_modules/normalize.css/normalize.css')
     }
   },
 

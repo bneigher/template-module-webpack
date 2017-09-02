@@ -4,14 +4,23 @@ The purpose of this library is to provide a toolkit library for fast development
 
 This is to be framework agnostic so it can be used with React, Angular, Vue, or whatever other frameworks you so choose.
 
+To use this library in your application import it as follows for the javascript
+
+```javascript
+import library as 'template-module-webpack';
+```
+
+The css if applicable will be located in the `dist` folder of the node_module
+
+
 ## What's in the box?
 
-Webpack Hot Module Replacement (HMR), ES6, SASS + Linting
+Webpack Hot Module Replacement (HMR), ES6, SASS, Linting, Unit Tests, and Sandbox library module template
 
 ## Environment setup 
 
 ```sh
-  $ npm install
+  $ npm i
 ```
 
 ## Development
@@ -19,18 +28,15 @@ Webpack Hot Module Replacement (HMR), ES6, SASS + Linting
 Start the Webpack server (includes live reloading + hot module replacement when you change files):
 
 ```sh
-  $ npm start
+  $ npm run dev
 ```
 
-Open [http://localhost:3001](http://localhost:3001) in a browser. `./src/index.js` is the entry point.
-
-## Sass linting
-
-[Stylelint](http://stylelint.io/) is used to enforce consistent conventions and avoid errors in stylesheets.
-`.stylelintrc` configuration file contains all the available rules for completeness, with the ones that I don't currently need turned off (set to `null`).
-For more info, see [stylelint rules documentation](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/rules.md).
+Open [http://localhost:8080](http://localhost:8080) in a browser.  `./sandbox/index.html` is the example which is an example of an implentation of your src library.
+`./src/index.js` is the entry point.
 
 ## Bundling 
+
+When you're finished and want to make a build, you will need to actually bundle the code into its distribution bundles.  The following command will do this with which you can publish the library
 
 ```sh
   $ npm run bundle
