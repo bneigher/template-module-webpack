@@ -53,6 +53,5 @@
     "workflow",
     "webpack"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }

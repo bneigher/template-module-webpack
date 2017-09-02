@@ -76,6 +76,7 @@ module.exports = {
   },
 
   stats: {
-    colors: true
+    colors: true,
+    reasons: true
   }
 };
