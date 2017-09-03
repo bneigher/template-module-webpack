@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The one stop shop for modern javascript library development",
   "main": "dist/bundle.js",
+  "module": "src",
   "scripts": {
     "dev": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --config webpack.config.js",
     "test": "NODE_ENV=testing ./node_modules/.bin/mocha --compilers js:babel-core/register",
