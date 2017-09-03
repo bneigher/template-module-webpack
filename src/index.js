@@ -16,3 +16,5 @@ if (module.hot) {
   }
   module.hot.accept();
 }
+
+export default library;
