@@ -1,13 +1,17 @@
 {
   "name": "template-module-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The one stop shop for modern javascript library development",
-  "main": "dist/bundle.js",
+  "main": "index.js",
+  "webpack": "./dist/bundle.js",
+  "browser": {
+    "index.js": "./dist/web-bundle.js"
+  },
   "module": "src",
   "scripts": {
-    "dev": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --config webpack.config.js",
-    "test": "NODE_ENV=testing ./node_modules/.bin/mocha --compilers js:babel-core/register",
-    "bundle": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.js"
+    "dev": "NODE_ENV=development npx webpack-dev-server --config webpack.config.js",
+    "test": "NODE_ENV=testing npx mocha --compilers js:babel-core/register",
+    "bundle": "NODE_ENV=production npx webpack --config webpack.config.js"
   },
   "author": "Ben Neigher",
   "license": "MIT",

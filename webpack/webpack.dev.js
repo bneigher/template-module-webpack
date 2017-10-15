@@ -99,5 +99,7 @@ module.exports = {
     colors: true,
     reasons: true
 
-  }
+  },
+
+  target: 'web'
 };
