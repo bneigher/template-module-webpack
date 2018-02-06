@@ -1,11 +1,11 @@
 {
   "name": "template-module-webpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The one stop shop for modern javascript library development",
   "main": "index.js",
-  "webpack": "./dist/bundle.js",
+  "webpack": "./src/index.js",
   "browser": {
-    "index.js": "./dist/web-bundle.js"
+    "index.js": "./dist/bundle.js"
   },
   "module": "src",
   "scripts": {

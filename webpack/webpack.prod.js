@@ -12,6 +12,8 @@ module.exports = [{
 
   context: Path.resolve(__dirname, '../'),
 
+  devtool: 'hidden-source-map',
+
   entry: [Path.resolve(__dirname, '../src/index.js')],
 
   module: {
@@ -131,10 +133,10 @@ module.exports = [{
   },
 
   output: {
+    filename: 'bundle.js',
     library: PackageJSON.name,
-    libraryTarget: 'commonjs2',
-    path: Path.resolve(__dirname, '../dist'),
-    filename: 'web-bundle.js'
+    libraryTarget: 'umd',
+    path: Path.resolve(__dirname, '../dist')
   },
 
   plugins: [
