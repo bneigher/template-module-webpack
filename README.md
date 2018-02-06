@@ -1,5 +1,11 @@
 # Template for making Modular Front-End Libraries with style
  
+ ![Screenshot](https://user-images.githubusercontent.com/4627728/35877932-a0045a22-0b2b-11e8-8fb2-bdfd8acc3c95.png)
+
+ This library is framework agnostic so it can be used with React, Angular, Vue, or whatever other frameworks you so choose.
+
+ See **[Example](https://bneigher.github.io/template-module-webpack/sandbox/)**
+ 
 The purpose of this library is to provide a toolkit library for fast development of front-end modules using the most modern of technologies.
 
 This is to be framework agnostic so it can be used with React, Angular, Vue, or whatever other frameworks you so choose.
