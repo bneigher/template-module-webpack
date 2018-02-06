@@ -1,27 +1,40 @@
 'use strict';
 
+const PackageJSON = require('../package.json');
 const Path = require('path');
 const Webpack = require('webpack');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
 
-  devtool: 'source-map',
+  cache: true,
+
+  // Create Sourcemaps for the bundle
+  devtool: 'cheap-eval-source-map',
 
   context: Path.resolve(__dirname, '../'),
 
   devServer: {
+    before: () => {
+
+      console.warn('\n[******** Beginning Webpack ********]');
+    },
+    bonjour: true,
     contentBase: Path.resolve(__dirname, '../sandbox'),
     compress: true,
-    port: 8080,
     hotOnly: true,
+    hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
+    https: false, // true for self-signed, object for cert authority
     inline: true,
+    lazy: false, // the dev-server will only compile the bundle when it gets requested
+    noInfo: false, // only errors & warns on hot reload
+    open: false,
+    overlay: true,
+    port: 8080,
+    progress: true,
     // If you have an application server
     // proxy: { '*': { target: 'http://localhost:8081' } }
   },
-
-  // Create Sourcemaps for the bundle
-  devtool: 'source-map',
 
   entry: [Path.resolve(__dirname, '../src/index.js')],
 
@@ -60,10 +73,11 @@ module.exports = {
     fs: 'empty'
   },
 
-
   output: {
-    path: Path.resolve(__dirname, '../dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    library: PackageJSON.name,
+    libraryTarget: 'umd',
+    path: Path.resolve(__dirname, '../dist')
   },
 
   plugins: [
