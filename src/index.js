@@ -11,9 +11,6 @@ import library from './lib/ping.js';
 /* This must stay here for HMR support! */
 /****************************************/
 if (module.hot) {
-  if (process.env.NODE_ENV === 'dev' || process.env.NODE_ENV === 'development') {
-    window.Library = library;
-  }
   module.hot.accept();
 }
 
