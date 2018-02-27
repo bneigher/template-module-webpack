@@ -19,7 +19,7 @@ module.exports = {
 
       console.warn('\n[******** Beginning Webpack ********]');
     },
-    bonjour: true,
+    // bonjour: true,
     contentBase: Path.resolve(__dirname, '../sandbox'),
     compress: true,
     hotOnly: true,
