@@ -9,37 +9,40 @@ module.exports = {
 
   cache: true,
 
-  // Create Sourcemaps for the bundle
-  devtool: 'cheap-eval-source-map',
-
   context: Path.resolve(__dirname, '../'),
+
+  // Create Sourcemaps for the bundle
+  devtool: 'source-map', // less performant - most verbose
+  // devtool: 'cheap-eval-source-map', // performant - traceable
 
   devServer: {
     before: () => {
 
       console.warn('\n[******** Beginning Webpack ********]');
     },
-    // bonjour: true,
     contentBase: Path.resolve(__dirname, '../sandbox'),
     compress: true,
-    hotOnly: true,
-    hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
+    historyApiFallback: true,
+    hotOnly: false,
+    hot: false, // hot module replacement. Depends on HotModuleReplacementPlugin
     https: false, // true for self-signed, object for cert authority
     inline: true,
     lazy: false, // the dev-server will only compile the bundle when it gets requested
     noInfo: false, // only errors & warns on hot reload
     open: false,
     overlay: true,
-    port: 8080,
     progress: true,
+    watchContentBase: true
     // If you have an application server
     // proxy: { '*': { target: 'http://localhost:8081' } }
   },
 
   entry: [Path.resolve(__dirname, '../src/index.js')],
 
+  mode: 'development',
+
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -51,20 +54,30 @@ module.exports = {
         }]
       },
       {
-        test: /\.json$/,
-        loaders: ['json-loader']
-      },
-      {
-        test: /\.scss$/,
-        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 4 version"]}!sass-loader?sourceMap&sourceComments'
+        test: /\.s[ac]ss$/,
+        use: [
+          { loader: 'style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } },
+          { loader: 'sass-loader', options: { sourceMap: true } }
+        ]
       },
       {
         test: /\.css$/,
-        loader:  'style-loader!css-loader!autoprefixer-loader?{browsers:["last 4 version"]}'
+        use: [
+          { loader: 'style-loader', options: { sourceMap: true } },
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } }
+        ]
       },
       {
         test: /\.(png|jpg|jpeg|gif|woff)$/,
         loader: 'url-loader?limit=8192'
+      },
+      {
+        test: /\.html$/,
+        exclude: /node_modules/,
+        loader: 'html-loader'
       }
     ]
   },
@@ -81,8 +94,6 @@ module.exports = {
   },
 
   plugins: [
-    // Specify the resulting CSS filename
-    new Webpack.HotModuleReplacementPlugin(),
     new Webpack.NamedModulesPlugin(),
     new Webpack.DefinePlugin({
       'process.env': {
