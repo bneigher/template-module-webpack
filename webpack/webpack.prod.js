@@ -12,6 +12,8 @@ module.exports = [{
 
   context: Path.resolve(__dirname, '../'),
 
+  devtool: 'cheap-eval-source-map', // performant - traceable
+
   entry: [Path.resolve(__dirname, '../src/index.js')],
 
   mode: 'production',

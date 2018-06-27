@@ -1,5 +1,8 @@
 ### Changelog
 
+# v1.2.0
+- Bump Packages
+
 # v1.1.0
 - Webpack 4
 - Bundle analyze
