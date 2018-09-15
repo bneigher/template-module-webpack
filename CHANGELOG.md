@@ -1,5 +1,10 @@
 ### Changelog
 
+# v1.3.0
+- Bump packages
+- Jest
+- modenize
+
 # v1.2.0
 - Bump Packages
 
