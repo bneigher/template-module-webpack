@@ -3,12 +3,12 @@
   ],
   "warnings": [
   ],
-  "version": "4.8.3",
-  "hash": "205b931fd018d2dc786c",
-  "time": 1277,
-  "builtAt": 1530132501820,
+  "version": "4.19.0",
+  "hash": "f74e2088d36c206ed74c",
+  "time": 1100,
+  "builtAt": 1536995595694,
   "publicPath": "",
-  "outputPath": "/Users/bneigher/Desktop/MyWork/template-module-webpack/dist",
+  "outputPath": "/Users/bneigher/Desktop/template-module-webpack/dist",
   "assetsByChunkName": {
     "main": [
       "bundle.js",
@@ -18,7 +18,7 @@
   "assets": [
     {
       "name": "bundle.js",
-      "size": 7377,
+      "size": 10647,
       "chunks": [
         0
       ],
@@ -65,7 +65,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1925,
+      "size": 2534,
       "names": [
         "main"
       ],
@@ -73,7 +73,7 @@
         "bundle.js",
         "bundle.css"
       ],
-      "hash": "d27c264819a820e97035",
+      "hash": "b1e6a61d2d99a257af63",
       "siblings": [
       ],
       "parents": [
@@ -85,11 +85,11 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/index.js",
-          "name": "./src/assets/scss/index.js",
-          "index": 3,
-          "index2": 6,
-          "size": 38,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "index": 2,
+          "index2": 0,
+          "size": 145,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -97,18 +97,18 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+          "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
           "issuerId": 2,
           "issuerName": "./src/index.js",
           "issuerPath": [
             {
-              "id": 3,
-              "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+              "id": 1,
+              "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
               "name": "multi ./src/index.js"
             },
             {
               "id": 2,
-              "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
               "name": "./src/index.js"
             }
           ],
@@ -120,12 +120,21 @@
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "cjs require",
-              "userRequest": "./assets/scss",
-              "loc": "13:0-24"
+              "userRequest": "@babel/runtime/helpers/interopRequireDefault",
+              "loc": "3:29-84"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+              "module": "./src/lib/ping.js",
+              "moduleName": "./src/lib/ping.js",
+              "type": "cjs require",
+              "userRequest": "@babel/runtime/helpers/interopRequireDefault",
+              "loc": "3:29-84"
             }
           ],
           "usedExports": true,
@@ -134,118 +143,15 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2,
-          "source": "'use strict';\n\nrequire('./main.scss');",
-          "parsedSrc": "function(module,exports,__webpack_require__){\"use strict\";eval(\"\\n\\n__webpack_require__(8);//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vc3JjL2Fzc2V0cy9zY3NzL2luZGV4LmpzPzM5MmMiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG5yZXF1aXJlKCcuL21haW4uc2NzcycpOyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\\n//# sourceURL=webpack-internal:///0\\n\")}"
+          "source": "function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    default: obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;",
+          "parsedSrc": "function(module,exports){eval(\"function _interopRequireDefault(obj) {\\n  return obj && obj.__esModule ? obj : {\\n    default: obj\\n  };\\n}\\n\\nmodule.exports = _interopRequireDefault;//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vbm9kZV9tb2R1bGVzL0BiYWJlbC9ydW50aW1lL2hlbHBlcnMvaW50ZXJvcFJlcXVpcmVEZWZhdWx0LmpzPzRlYTQiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gX2ludGVyb3BSZXF1aXJlRGVmYXVsdChvYmopIHtcbiAgcmV0dXJuIG9iaiAmJiBvYmouX19lc01vZHVsZSA/IG9iaiA6IHtcbiAgICBkZWZhdWx0OiBvYmpcbiAgfTtcbn1cblxubW9kdWxlLmV4cG9ydHMgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0OyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\\n//# sourceURL=webpack-internal:///0\\n\")}"
         },
         {
           "id": 1,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/lib/ping.js",
-          "name": "./src/lib/ping.js",
-          "index": 2,
-          "index2": 0,
-          "size": 1123,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "issuerId": 2,
-          "issuerName": "./src/index.js",
-          "issuerPath": [
-            {
-              "id": 3,
-              "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-              "name": "multi ./src/index.js"
-            },
-            {
-              "id": 2,
-              "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-              "name": "./src/index.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [
-          ],
-          "reasons": [
-            {
-              "moduleId": 2,
-              "moduleIdentifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "type": "cjs require",
-              "userRequest": "./lib/ping.js",
-              "loc": "9:35-59"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 2,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar ping =\n/*#__PURE__*/\nfunction () {\n  function ping() {\n    _classCallCheck(this, ping);\n\n    console.log('ping...');\n  }\n\n  _createClass(ping, [{\n    key: \"listen\",\n    value: function listen() {\n      console.log('...pong');\n    }\n  }]);\n\n  return ping;\n}();\n\nexports.default = ping;\nmodule.exports = exports[\"default\"];",
-          "parsedSrc": "function(module,exports,__webpack_require__){\"use strict\";eval('\\n\\nObject.defineProperty(exports, \"__esModule\", {\\n  value: true\\n});\\nexports.default = void 0;\\n\\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\\n\\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\\n\\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\\n\\nvar ping =\\n/*#__PURE__*/\\nfunction () {\\n  function ping() {\\n    _classCallCheck(this, ping);\\n\\n    console.log(\\'ping...\\');\\n  }\\n\\n  _createClass(ping, [{\\n    key: \"listen\",\\n    value: function listen() {\\n      console.log(\\'...pong\\');\\n    }\\n  }]);\\n\\n  return ping;\\n}();\\n\\nexports.default = ping;\\nmodule.exports = exports[\"default\"];//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vc3JjL2xpYi9waW5nLmpzP2I5ZDAiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgdmFsdWU6IHRydWVcbn0pO1xuZXhwb3J0cy5kZWZhdWx0ID0gdm9pZCAwO1xuXG5mdW5jdGlvbiBfY2xhc3NDYWxsQ2hlY2soaW5zdGFuY2UsIENvbnN0cnVjdG9yKSB7IGlmICghKGluc3RhbmNlIGluc3RhbmNlb2YgQ29uc3RydWN0b3IpKSB7IHRocm93IG5ldyBUeXBlRXJyb3IoXCJDYW5ub3QgY2FsbCBhIGNsYXNzIGFzIGEgZnVuY3Rpb25cIik7IH0gfVxuXG5mdW5jdGlvbiBfZGVmaW5lUHJvcGVydGllcyh0YXJnZXQsIHByb3BzKSB7IGZvciAodmFyIGkgPSAwOyBpIDwgcHJvcHMubGVuZ3RoOyBpKyspIHsgdmFyIGRlc2NyaXB0b3IgPSBwcm9wc1tpXTsgZGVzY3JpcHRvci5lbnVtZXJhYmxlID0gZGVzY3JpcHRvci5lbnVtZXJhYmxlIHx8IGZhbHNlOyBkZXNjcmlwdG9yLmNvbmZpZ3VyYWJsZSA9IHRydWU7IGlmIChcInZhbHVlXCIgaW4gZGVzY3JpcHRvcikgZGVzY3JpcHRvci53cml0YWJsZSA9IHRydWU7IE9iamVjdC5kZWZpbmVQcm9wZXJ0eSh0YXJnZXQsIGRlc2NyaXB0b3Iua2V5LCBkZXNjcmlwdG9yKTsgfSB9XG5cbmZ1bmN0aW9uIF9jcmVhdGVDbGFzcyhDb25zdHJ1Y3RvciwgcHJvdG9Qcm9wcywgc3RhdGljUHJvcHMpIHsgaWYgKHByb3RvUHJvcHMpIF9kZWZpbmVQcm9wZXJ0aWVzKENvbnN0cnVjdG9yLnByb3RvdHlwZSwgcHJvdG9Qcm9wcyk7IGlmIChzdGF0aWNQcm9wcykgX2RlZmluZVByb3BlcnRpZXMoQ29uc3RydWN0b3IsIHN0YXRpY1Byb3BzKTsgcmV0dXJuIENvbnN0cnVjdG9yOyB9XG5cbnZhciBwaW5nID1cbi8qI19fUFVSRV9fKi9cbmZ1bmN0aW9uICgpIHtcbiAgZnVuY3Rpb24gcGluZygpIHtcbiAgICBfY2xhc3NDYWxsQ2hlY2sodGhpcywgcGluZyk7XG5cbiAgICBjb25zb2xlLmxvZygncGluZy4uLicpO1xuICB9XG5cbiAgX2NyZWF0ZUNsYXNzKHBpbmcsIFt7XG4gICAga2V5OiBcImxpc3RlblwiLFxuICAgIHZhbHVlOiBmdW5jdGlvbiBsaXN0ZW4oKSB7XG4gICAgICBjb25zb2xlLmxvZygnLi4ucG9uZycpO1xuICAgIH1cbiAgfV0pO1xuXG4gIHJldHVybiBwaW5nO1xufSgpO1xuXG5leHBvcnRzLmRlZmF1bHQgPSBwaW5nO1xubW9kdWxlLmV4cG9ydHMgPSBleHBvcnRzW1wiZGVmYXVsdFwiXTsiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\\n//# sourceURL=webpack-internal:///1\\n')}"
-        },
-        {
-          "id": 2,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "name": "./src/index.js",
-          "index": 1,
-          "index2": 7,
-          "size": 695,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "issuer": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "issuerId": 3,
-          "issuerName": "multi ./src/index.js",
-          "issuerPath": [
-            {
-              "id": 3,
-              "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-              "name": "multi ./src/index.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [
-          ],
-          "reasons": [
-            {
-              "moduleId": 3,
-              "moduleIdentifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-              "module": "multi ./src/index.js",
-              "moduleName": "multi ./src/index.js",
-              "type": "single entry",
-              "userRequest": "/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-              "loc": "main:100000"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1,
-          "source": "\"use strict\";\n'use stict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _ping = _interopRequireDefault(require(\"./lib/ping.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nrequire('./assets/scss'); // require('./assets/images') // Not Needed\n// require('./assets/svgs'); // Not Needed\n\n\n/* Main entrypoint for API */\n\n/****************************************/\n\n/* This must stay here for HMR support! */\n\n/****************************************/\nif (module.hot) {\n  module.hot.accept();\n}\n\nvar _default = _ping.default;\nexports.default = _default;\nmodule.exports = exports[\"default\"];",
-          "parsedSrc": "function(module,exports,__webpack_require__){\"use strict\";eval(\"\\n'use stict';\\n\\nObject.defineProperty(exports, \\\"__esModule\\\", {\\n  value: true\\n});\\nexports.default = void 0;\\n\\nvar _ping = _interopRequireDefault(__webpack_require__(1));\\n\\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\\n\\n__webpack_require__(0); // require('./assets/images') // Not Needed\\n// require('./assets/svgs'); // Not Needed\\n\\n\\n/* Main entrypoint for API */\\n\\n/****************************************/\\n\\n/* This must stay here for HMR support! */\\n\\n/****************************************/\\nif (false) {}\\n\\nvar _default = _ping.default;\\nexports.default = _default;\\nmodule.exports = exports[\\\"default\\\"];//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMi5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vc3JjL2luZGV4LmpzPzhkZmEiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG4ndXNlIHN0aWN0JztcblxuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gIHZhbHVlOiB0cnVlXG59KTtcbmV4cG9ydHMuZGVmYXVsdCA9IHZvaWQgMDtcblxudmFyIF9waW5nID0gX2ludGVyb3BSZXF1aXJlRGVmYXVsdChyZXF1aXJlKFwiLi9saWIvcGluZy5qc1wiKSk7XG5cbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7IHJldHVybiBvYmogJiYgb2JqLl9fZXNNb2R1bGUgPyBvYmogOiB7IGRlZmF1bHQ6IG9iaiB9OyB9XG5cbnJlcXVpcmUoJy4vYXNzZXRzL3Njc3MnKTsgLy8gcmVxdWlyZSgnLi9hc3NldHMvaW1hZ2VzJykgLy8gTm90IE5lZWRlZFxuLy8gcmVxdWlyZSgnLi9hc3NldHMvc3ZncycpOyAvLyBOb3QgTmVlZGVkXG5cblxuLyogTWFpbiBlbnRyeXBvaW50IGZvciBBUEkgKi9cblxuLyoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiovXG5cbi8qIFRoaXMgbXVzdCBzdGF5IGhlcmUgZm9yIEhNUiBzdXBwb3J0ISAqL1xuXG4vKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKi9cbmlmIChtb2R1bGUuaG90KSB7XG4gIG1vZHVsZS5ob3QuYWNjZXB0KCk7XG59XG5cbnZhciBfZGVmYXVsdCA9IF9waW5nLmRlZmF1bHQ7XG5leHBvcnRzLmRlZmF1bHQgPSBfZGVmYXVsdDtcbm1vZHVsZS5leHBvcnRzID0gZXhwb3J0c1tcImRlZmF1bHRcIl07Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsYUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\\n//# sourceURL=webpack-internal:///2\\n\")}"
-        },
-        {
-          "id": 3,
-          "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
           "name": "multi ./src/index.js",
           "index": 0,
-          "index2": 8,
+          "index2": 11,
           "size": 28,
           "built": true,
           "optional": false,
@@ -280,8 +186,283 @@
           "parsedSrc": "function(e,c,n){e.exports=n(2)}"
         },
         {
-          "id": 8,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
+          "id": 2,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "./src/index.js",
+          "index": 1,
+          "index2": 10,
+          "size": 669,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "issuerId": 1,
+          "issuerName": "multi ./src/index.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "multi ./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "module": "multi ./src/index.js",
+              "moduleName": "multi ./src/index.js",
+              "type": "single entry",
+              "userRequest": "/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "loc": "main[0]"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nrequire(\"./assets/scss\");\n\nvar _ping = _interopRequireDefault(require(\"./lib/ping.js\"));\n\n// require('./assets/images') // Not Needed\n// require('./assets/svgs'); // Not Needed\n\n/* Main entrypoint for API */\n\n/****************************************/\n\n/* This must stay here for HMR support! */\n\n/****************************************/\nif (module.hot) {\n  module.hot.accept();\n}\n\nvar _default = _ping.default;\nexports.default = _default;\nmodule.exports = exports.default;",
+          "parsedSrc": "function(module,exports,__webpack_require__){\"use strict\";eval(\"\\n\\nvar _interopRequireDefault = __webpack_require__(0);\\n\\nObject.defineProperty(exports, \\\"__esModule\\\", {\\n  value: true\\n});\\nexports.default = void 0;\\n\\n__webpack_require__(3);\\n\\nvar _ping = _interopRequireDefault(__webpack_require__(4));\\n\\n// require('./assets/images') // Not Needed\\n// require('./assets/svgs'); // Not Needed\\n\\n/* Main entrypoint for API */\\n\\n/****************************************/\\n\\n/* This must stay here for HMR support! */\\n\\n/****************************************/\\nif (false) {}\\n\\nvar _default = _ping.default;\\nexports.default = _default;\\nmodule.exports = exports.default;//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMi5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vc3JjL2luZGV4LmpzPzhkZmEiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5cbnZhciBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0ID0gcmVxdWlyZShcIkBiYWJlbC9ydW50aW1lL2hlbHBlcnMvaW50ZXJvcFJlcXVpcmVEZWZhdWx0XCIpO1xuXG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgdmFsdWU6IHRydWVcbn0pO1xuZXhwb3J0cy5kZWZhdWx0ID0gdm9pZCAwO1xuXG5yZXF1aXJlKFwiLi9hc3NldHMvc2Nzc1wiKTtcblxudmFyIF9waW5nID0gX2ludGVyb3BSZXF1aXJlRGVmYXVsdChyZXF1aXJlKFwiLi9saWIvcGluZy5qc1wiKSk7XG5cbi8vIHJlcXVpcmUoJy4vYXNzZXRzL2ltYWdlcycpIC8vIE5vdCBOZWVkZWRcbi8vIHJlcXVpcmUoJy4vYXNzZXRzL3N2Z3MnKTsgLy8gTm90IE5lZWRlZFxuXG4vKiBNYWluIGVudHJ5cG9pbnQgZm9yIEFQSSAqL1xuXG4vKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKi9cblxuLyogVGhpcyBtdXN0IHN0YXkgaGVyZSBmb3IgSE1SIHN1cHBvcnQhICovXG5cbi8qKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqL1xuaWYgKG1vZHVsZS5ob3QpIHtcbiAgbW9kdWxlLmhvdC5hY2NlcHQoKTtcbn1cblxudmFyIF9kZWZhdWx0ID0gX3BpbmcuZGVmYXVsdDtcbmV4cG9ydHMuZGVmYXVsdCA9IF9kZWZhdWx0O1xubW9kdWxlLmV4cG9ydHMgPSBleHBvcnRzLmRlZmF1bHQ7Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsYUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\\n//# sourceURL=webpack-internal:///2\\n\")}"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/index.js",
+          "name": "./src/assets/scss/index.js",
+          "index": 3,
+          "index2": 6,
+          "size": 38,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "issuerId": 2,
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": 2,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "./assets/scss",
+              "loc": "10:0-24"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "\"use strict\";\n\nrequire('./main.scss');",
+          "parsedSrc": "function(module,exports,__webpack_require__){\"use strict\";eval(\"\\n\\n__webpack_require__(7);//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vc3JjL2Fzc2V0cy9zY3NzL2luZGV4LmpzPzM5MmMiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5cbnJlcXVpcmUoJy4vbWFpbi5zY3NzJyk7Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\\n//# sourceURL=webpack-internal:///3\\n\")}"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "name": "./src/lib/ping.js",
+          "index": 9,
+          "index2": 9,
+          "size": 821,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "issuerId": 2,
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": 2,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "./lib/ping.js",
+              "loc": "12:35-59"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar ping =\n/*#__PURE__*/\nfunction () {\n  function ping() {\n    (0, _classCallCheck2.default)(this, ping);\n    console.log('ping...');\n  }\n\n  (0, _createClass2.default)(ping, [{\n    key: \"listen\",\n    value: function listen() {\n      console.log('...pong');\n    }\n  }, {\n    key: \"returnThing\",\n    value: function returnThing() {\n      return 1;\n    }\n  }]);\n  return ping;\n}();\n\nexports.default = ping;\nmodule.exports = exports.default;",
+          "parsedSrc": "function(module,exports,__webpack_require__){\"use strict\";eval('\\n\\nvar _interopRequireDefault = __webpack_require__(0);\\n\\nObject.defineProperty(exports, \"__esModule\", {\\n  value: true\\n});\\nexports.default = void 0;\\n\\nvar _classCallCheck2 = _interopRequireDefault(__webpack_require__(5));\\n\\nvar _createClass2 = _interopRequireDefault(__webpack_require__(6));\\n\\nvar ping =\\n/*#__PURE__*/\\nfunction () {\\n  function ping() {\\n    (0, _classCallCheck2.default)(this, ping);\\n    console.log(\\'ping...\\');\\n  }\\n\\n  (0, _createClass2.default)(ping, [{\\n    key: \"listen\",\\n    value: function listen() {\\n      console.log(\\'...pong\\');\\n    }\\n  }, {\\n    key: \"returnThing\",\\n    value: function returnThing() {\\n      return 1;\\n    }\\n  }]);\\n  return ping;\\n}();\\n\\nexports.default = ping;\\nmodule.exports = exports.default;//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vc3JjL2xpYi9waW5nLmpzP2I5ZDAiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5cbnZhciBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0ID0gcmVxdWlyZShcIkBiYWJlbC9ydW50aW1lL2hlbHBlcnMvaW50ZXJvcFJlcXVpcmVEZWZhdWx0XCIpO1xuXG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgdmFsdWU6IHRydWVcbn0pO1xuZXhwb3J0cy5kZWZhdWx0ID0gdm9pZCAwO1xuXG52YXIgX2NsYXNzQ2FsbENoZWNrMiA9IF9pbnRlcm9wUmVxdWlyZURlZmF1bHQocmVxdWlyZShcIkBiYWJlbC9ydW50aW1lL2hlbHBlcnMvY2xhc3NDYWxsQ2hlY2tcIikpO1xuXG52YXIgX2NyZWF0ZUNsYXNzMiA9IF9pbnRlcm9wUmVxdWlyZURlZmF1bHQocmVxdWlyZShcIkBiYWJlbC9ydW50aW1lL2hlbHBlcnMvY3JlYXRlQ2xhc3NcIikpO1xuXG52YXIgcGluZyA9XG4vKiNfX1BVUkVfXyovXG5mdW5jdGlvbiAoKSB7XG4gIGZ1bmN0aW9uIHBpbmcoKSB7XG4gICAgKDAsIF9jbGFzc0NhbGxDaGVjazIuZGVmYXVsdCkodGhpcywgcGluZyk7XG4gICAgY29uc29sZS5sb2coJ3BpbmcuLi4nKTtcbiAgfVxuXG4gICgwLCBfY3JlYXRlQ2xhc3MyLmRlZmF1bHQpKHBpbmcsIFt7XG4gICAga2V5OiBcImxpc3RlblwiLFxuICAgIHZhbHVlOiBmdW5jdGlvbiBsaXN0ZW4oKSB7XG4gICAgICBjb25zb2xlLmxvZygnLi4ucG9uZycpO1xuICAgIH1cbiAgfSwge1xuICAgIGtleTogXCJyZXR1cm5UaGluZ1wiLFxuICAgIHZhbHVlOiBmdW5jdGlvbiByZXR1cm5UaGluZygpIHtcbiAgICAgIHJldHVybiAxO1xuICAgIH1cbiAgfV0pO1xuICByZXR1cm4gcGluZztcbn0oKTtcblxuZXhwb3J0cy5kZWZhdWx0ID0gcGluZztcbm1vZHVsZS5leHBvcnRzID0gZXhwb3J0cy5kZWZhdWx0OyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\\n//# sourceURL=webpack-internal:///4\\n')}"
+        },
+        {
+          "id": 5,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/@babel/runtime/helpers/classCallCheck.js",
+          "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+          "index": 10,
+          "index2": 7,
+          "size": 196,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "issuerId": 4,
+          "issuerName": "./src/lib/ping.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": 2,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": 4,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+              "name": "./src/lib/ping.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+              "module": "./src/lib/ping.js",
+              "moduleName": "./src/lib/ping.js",
+              "type": "cjs require",
+              "userRequest": "@babel/runtime/helpers/classCallCheck",
+              "loc": "10:46-94"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;",
+          "parsedSrc": "function(module,exports){eval('function _classCallCheck(instance, Constructor) {\\n  if (!(instance instanceof Constructor)) {\\n    throw new TypeError(\"Cannot call a class as a function\");\\n  }\\n}\\n\\nmodule.exports = _classCallCheck;//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vbm9kZV9tb2R1bGVzL0BiYWJlbC9ydW50aW1lL2hlbHBlcnMvY2xhc3NDYWxsQ2hlY2suanM/OTcwYiJdLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBfY2xhc3NDYWxsQ2hlY2soaW5zdGFuY2UsIENvbnN0cnVjdG9yKSB7XG4gIGlmICghKGluc3RhbmNlIGluc3RhbmNlb2YgQ29uc3RydWN0b3IpKSB7XG4gICAgdGhyb3cgbmV3IFR5cGVFcnJvcihcIkNhbm5vdCBjYWxsIGEgY2xhc3MgYXMgYSBmdW5jdGlvblwiKTtcbiAgfVxufVxuXG5tb2R1bGUuZXhwb3J0cyA9IF9jbGFzc0NhbGxDaGVjazsiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\\n//# sourceURL=webpack-internal:///5\\n')}"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/@babel/runtime/helpers/createClass.js",
+          "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+          "index": 11,
+          "index2": 8,
+          "size": 596,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "issuerId": 4,
+          "issuerName": "./src/lib/ping.js",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "multi ./src/index.js"
+            },
+            {
+              "id": 2,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": 4,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+              "name": "./src/lib/ping.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+              "module": "./src/lib/ping.js",
+              "moduleName": "./src/lib/ping.js",
+              "type": "cjs require",
+              "userRequest": "@babel/runtime/helpers/createClass",
+              "loc": "12:43-88"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;",
+          "parsedSrc": "function(module,exports){eval('function _defineProperties(target, props) {\\n  for (var i = 0; i < props.length; i++) {\\n    var descriptor = props[i];\\n    descriptor.enumerable = descriptor.enumerable || false;\\n    descriptor.configurable = true;\\n    if (\"value\" in descriptor) descriptor.writable = true;\\n    Object.defineProperty(target, descriptor.key, descriptor);\\n  }\\n}\\n\\nfunction _createClass(Constructor, protoProps, staticProps) {\\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\\n  if (staticProps) _defineProperties(Constructor, staticProps);\\n  return Constructor;\\n}\\n\\nmodule.exports = _createClass;//# sourceURL=[module]\\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNi5qcyIsInNvdXJjZXMiOlsid2VicGFjazovL3RlbXBsYXRlLW1vZHVsZS13ZWJwYWNrLy4vbm9kZV9tb2R1bGVzL0BiYWJlbC9ydW50aW1lL2hlbHBlcnMvY3JlYXRlQ2xhc3MuanM/NWJjMyJdLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBfZGVmaW5lUHJvcGVydGllcyh0YXJnZXQsIHByb3BzKSB7XG4gIGZvciAodmFyIGkgPSAwOyBpIDwgcHJvcHMubGVuZ3RoOyBpKyspIHtcbiAgICB2YXIgZGVzY3JpcHRvciA9IHByb3BzW2ldO1xuICAgIGRlc2NyaXB0b3IuZW51bWVyYWJsZSA9IGRlc2NyaXB0b3IuZW51bWVyYWJsZSB8fCBmYWxzZTtcbiAgICBkZXNjcmlwdG9yLmNvbmZpZ3VyYWJsZSA9IHRydWU7XG4gICAgaWYgKFwidmFsdWVcIiBpbiBkZXNjcmlwdG9yKSBkZXNjcmlwdG9yLndyaXRhYmxlID0gdHJ1ZTtcbiAgICBPYmplY3QuZGVmaW5lUHJvcGVydHkodGFyZ2V0LCBkZXNjcmlwdG9yLmtleSwgZGVzY3JpcHRvcik7XG4gIH1cbn1cblxuZnVuY3Rpb24gX2NyZWF0ZUNsYXNzKENvbnN0cnVjdG9yLCBwcm90b1Byb3BzLCBzdGF0aWNQcm9wcykge1xuICBpZiAocHJvdG9Qcm9wcykgX2RlZmluZVByb3BlcnRpZXMoQ29uc3RydWN0b3IucHJvdG90eXBlLCBwcm90b1Byb3BzKTtcbiAgaWYgKHN0YXRpY1Byb3BzKSBfZGVmaW5lUHJvcGVydGllcyhDb25zdHJ1Y3Rvciwgc3RhdGljUHJvcHMpO1xuICByZXR1cm4gQ29uc3RydWN0b3I7XG59XG5cbm1vZHVsZS5leHBvcnRzID0gX2NyZWF0ZUNsYXNzOyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\\n//# sourceURL=webpack-internal:///6\\n')}"
+        },
+        {
+          "id": 7,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
           "name": "./src/assets/scss/main.scss",
           "index": null,
           "index2": null,
@@ -318,6 +499,7 @@
           "moduleIdentifier": "",
           "moduleName": "",
           "loc": "main",
+          "request": null,
           "reasons": [
           ]
         }
@@ -327,11 +509,11 @@
   "modules": [
     {
       "id": 0,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/index.js",
-      "name": "./src/assets/scss/index.js",
-      "index": 3,
-      "index2": 6,
-      "size": 38,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "index": 2,
+      "index2": 0,
+      "size": 145,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -339,18 +521,18 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
       "issuerId": 2,
       "issuerName": "./src/index.js",
       "issuerPath": [
         {
-          "id": 3,
-          "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+          "id": 1,
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
           "name": "multi ./src/index.js"
         },
         {
           "id": 2,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
           "name": "./src/index.js"
         }
       ],
@@ -362,12 +544,21 @@
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+          "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "cjs require",
-          "userRequest": "./assets/scss",
-          "loc": "13:0-24"
+          "userRequest": "@babel/runtime/helpers/interopRequireDefault",
+          "loc": "3:29-84"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "module": "./src/lib/ping.js",
+          "moduleName": "./src/lib/ping.js",
+          "type": "cjs require",
+          "userRequest": "@babel/runtime/helpers/interopRequireDefault",
+          "loc": "3:29-84"
         }
       ],
       "usedExports": true,
@@ -376,115 +567,14 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "'use strict';\n\nrequire('./main.scss');"
+      "source": "function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    default: obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;"
     },
     {
       "id": 1,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/lib/ping.js",
-      "name": "./src/lib/ping.js",
-      "index": 2,
-      "index2": 0,
-      "size": 1123,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0
-      ],
-      "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-      "issuerId": 2,
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "id": 3,
-          "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "name": "multi ./src/index.js"
-        },
-        {
-          "id": 2,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "name": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [
-      ],
-      "reasons": [
-        {
-          "moduleId": 2,
-          "moduleIdentifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "type": "cjs require",
-          "userRequest": "./lib/ping.js",
-          "loc": "9:35-59"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 2,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar ping =\n/*#__PURE__*/\nfunction () {\n  function ping() {\n    _classCallCheck(this, ping);\n\n    console.log('ping...');\n  }\n\n  _createClass(ping, [{\n    key: \"listen\",\n    value: function listen() {\n      console.log('...pong');\n    }\n  }]);\n\n  return ping;\n}();\n\nexports.default = ping;\nmodule.exports = exports[\"default\"];"
-    },
-    {
-      "id": 2,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-      "name": "./src/index.js",
-      "index": 1,
-      "index2": 7,
-      "size": 695,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0
-      ],
-      "issuer": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-      "issuerId": 3,
-      "issuerName": "multi ./src/index.js",
-      "issuerPath": [
-        {
-          "id": 3,
-          "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "name": "multi ./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [
-      ],
-      "reasons": [
-        {
-          "moduleId": 3,
-          "moduleIdentifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "module": "multi ./src/index.js",
-          "moduleName": "multi ./src/index.js",
-          "type": "single entry",
-          "userRequest": "/Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
-          "loc": "main:100000"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 1,
-      "source": "\"use strict\";\n'use stict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _ping = _interopRequireDefault(require(\"./lib/ping.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nrequire('./assets/scss'); // require('./assets/images') // Not Needed\n// require('./assets/svgs'); // Not Needed\n\n\n/* Main entrypoint for API */\n\n/****************************************/\n\n/* This must stay here for HMR support! */\n\n/****************************************/\nif (module.hot) {\n  module.hot.accept();\n}\n\nvar _default = _ping.default;\nexports.default = _default;\nmodule.exports = exports[\"default\"];"
-    },
-    {
-      "id": 3,
-      "identifier": "multi /Users/bneigher/Desktop/MyWork/template-module-webpack/src/index.js",
+      "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
       "name": "multi ./src/index.js",
       "index": 0,
-      "index2": 8,
+      "index2": 11,
       "size": 28,
       "built": true,
       "optional": false,
@@ -518,31 +608,27 @@
       "depth": 0
     },
     {
-      "id": 4,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/lib/urls.js",
-      "name": "./node_modules/style-loader/lib/urls.js",
-      "index": 8,
-      "index2": 3,
-      "size": 3013,
+      "id": 2,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+      "name": "./src/index.js",
+      "index": 1,
+      "index2": 10,
+      "size": 669,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
+        0
       ],
-      "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/lib/addStyles.js",
-      "issuerId": 5,
-      "issuerName": "./node_modules/style-loader/lib/addStyles.js",
+      "issuer": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+      "issuerId": 1,
+      "issuerName": "multi ./src/index.js",
       "issuerPath": [
         {
-          "id": 8,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-          "name": "./src/assets/scss/main.scss"
-        },
-        {
-          "id": 5,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/lib/addStyles.js",
-          "name": "./node_modules/style-loader/lib/addStyles.js"
+          "id": 1,
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "multi ./src/index.js"
         }
       ],
       "failed": false,
@@ -551,36 +637,162 @@
       "assets": [
       ],
       "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "module": "multi ./src/index.js",
+          "moduleName": "multi ./src/index.js",
+          "type": "single entry",
+          "userRequest": "/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "loc": "main[0]"
+        }
       ],
       "usedExports": true,
       "providedExports": null,
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 5,
-      "source": "\n/**\n * When source maps are enabled, `style-loader` uses a link element with a data-uri to\n * embed the css on the page. This breaks all relative urls because now they are relative to a\n * bundle instead of the current page.\n *\n * One solution is to only use full urls, but that may be impossible.\n *\n * Instead, this function \"fixes\" the relative urls to be absolute according to the current page location.\n *\n * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.\n *\n */\n\nmodule.exports = function (css) {\n  // get current location\n  var location = typeof window !== \"undefined\" && window.location;\n\n  if (!location) {\n    throw new Error(\"fixUrls requires window.location\");\n  }\n\n\t// blank or null?\n\tif (!css || typeof css !== \"string\") {\n\t  return css;\n  }\n\n  var baseUrl = location.protocol + \"//\" + location.host;\n  var currentDir = baseUrl + location.pathname.replace(/\\/[^\\/]*$/, \"/\");\n\n\t// convert each url(...)\n\t/*\n\tThis regular expression is just a way to recursively match brackets within\n\ta string.\n\n\t /url\\s*\\(  = Match on the word \"url\" with any whitespace after it and then a parens\n\t   (  = Start a capturing group\n\t     (?:  = Start a non-capturing group\n\t         [^)(]  = Match anything that isn't a parentheses\n\t         |  = OR\n\t         \\(  = Match a start parentheses\n\t             (?:  = Start another non-capturing groups\n\t                 [^)(]+  = Match anything that isn't a parentheses\n\t                 |  = OR\n\t                 \\(  = Match a start parentheses\n\t                     [^)(]*  = Match anything that isn't a parentheses\n\t                 \\)  = Match a end parentheses\n\t             )  = End Group\n              *\\) = Match anything and then a close parens\n          )  = Close non-capturing group\n          *  = Match anything\n       )  = Close capturing group\n\t \\)  = Match a close parens\n\n\t /gi  = Get all matches, not the first.  Be case insensitive.\n\t */\n\tvar fixedCss = css.replace(/url\\s*\\(((?:[^)(]|\\((?:[^)(]+|\\([^)(]*\\))*\\))*)\\)/gi, function(fullMatch, origUrl) {\n\t\t// strip quotes (if they exist)\n\t\tvar unquotedOrigUrl = origUrl\n\t\t\t.trim()\n\t\t\t.replace(/^\"(.*)\"$/, function(o, $1){ return $1; })\n\t\t\t.replace(/^'(.*)'$/, function(o, $1){ return $1; });\n\n\t\t// already a full url? no change\n\t\tif (/^(#|data:|http:\\/\\/|https:\\/\\/|file:\\/\\/\\/|\\s*$)/i.test(unquotedOrigUrl)) {\n\t\t  return fullMatch;\n\t\t}\n\n\t\t// convert the url to a full url\n\t\tvar newUrl;\n\n\t\tif (unquotedOrigUrl.indexOf(\"//\") === 0) {\n\t\t  \t//TODO: should we add protocol?\n\t\t\tnewUrl = unquotedOrigUrl;\n\t\t} else if (unquotedOrigUrl.indexOf(\"/\") === 0) {\n\t\t\t// path should be relative to the base url\n\t\t\tnewUrl = baseUrl + unquotedOrigUrl; // already starts with '/'\n\t\t} else {\n\t\t\t// path should be relative to current directory\n\t\t\tnewUrl = currentDir + unquotedOrigUrl.replace(/^\\.\\//, \"\"); // Strip leading './'\n\t\t}\n\n\t\t// send back the fixed url(...)\n\t\treturn \"url(\" + JSON.stringify(newUrl) + \")\";\n\t});\n\n\t// send back the fixed css\n\treturn fixedCss;\n};\n"
+      "depth": 1,
+      "source": "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nrequire(\"./assets/scss\");\n\nvar _ping = _interopRequireDefault(require(\"./lib/ping.js\"));\n\n// require('./assets/images') // Not Needed\n// require('./assets/svgs'); // Not Needed\n\n/* Main entrypoint for API */\n\n/****************************************/\n\n/* This must stay here for HMR support! */\n\n/****************************************/\nif (module.hot) {\n  module.hot.accept();\n}\n\nvar _default = _ping.default;\nexports.default = _default;\nmodule.exports = exports.default;"
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/index.js",
+      "name": "./src/assets/scss/index.js",
+      "index": 3,
+      "index2": 6,
+      "size": 38,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+      "issuerId": 2,
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "multi ./src/index.js"
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "./assets/scss",
+          "loc": "10:0-24"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "\"use strict\";\n\nrequire('./main.scss');"
+    },
+    {
+      "id": 4,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+      "name": "./src/lib/ping.js",
+      "index": 9,
+      "index2": 9,
+      "size": 821,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+      "issuerId": 2,
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": 1,
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "multi ./src/index.js"
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "./lib/ping.js",
+          "loc": "12:35-59"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar ping =\n/*#__PURE__*/\nfunction () {\n  function ping() {\n    (0, _classCallCheck2.default)(this, ping);\n    console.log('ping...');\n  }\n\n  (0, _createClass2.default)(ping, [{\n    key: \"listen\",\n    value: function listen() {\n      console.log('...pong');\n    }\n  }, {\n    key: \"returnThing\",\n    value: function returnThing() {\n      return 1;\n    }\n  }]);\n  return ping;\n}();\n\nexports.default = ping;\nmodule.exports = exports.default;"
     },
     {
       "id": 5,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/lib/addStyles.js",
-      "name": "./node_modules/style-loader/lib/addStyles.js",
-      "index": 7,
-      "index2": 4,
-      "size": 10006,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "index": 10,
+      "index2": 7,
+      "size": 196,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
+        0
       ],
-      "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-      "issuerId": 8,
-      "issuerName": "./src/assets/scss/main.scss",
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+      "issuerId": 4,
+      "issuerName": "./src/lib/ping.js",
       "issuerPath": [
         {
-          "id": 8,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-          "name": "./src/assets/scss/main.scss"
+          "id": 1,
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "multi ./src/index.js"
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "name": "./src/lib/ping.js"
         }
       ],
       "failed": false,
@@ -589,41 +801,56 @@
       "assets": [
       ],
       "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "module": "./src/lib/ping.js",
+          "moduleName": "./src/lib/ping.js",
+          "type": "cjs require",
+          "userRequest": "@babel/runtime/helpers/classCallCheck",
+          "loc": "10:46-94"
+        }
       ],
       "usedExports": true,
       "providedExports": null,
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 4,
-      "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n\nvar stylesInDom = {};\n\nvar\tmemoize = function (fn) {\n\tvar memo;\n\n\treturn function () {\n\t\tif (typeof memo === \"undefined\") memo = fn.apply(this, arguments);\n\t\treturn memo;\n\t};\n};\n\nvar isOldIE = memoize(function () {\n\t// Test for IE <= 9 as proposed by Browserhacks\n\t// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n\t// Tests for existence of standard globals is to allow style-loader\n\t// to operate correctly into non-standard environments\n\t// @see https://github.com/webpack-contrib/style-loader/issues/177\n\treturn window && document && document.all && !window.atob;\n});\n\nvar getTarget = function (target) {\n  return document.querySelector(target);\n};\n\nvar getElement = (function (fn) {\n\tvar memo = {};\n\n\treturn function(target) {\n                // If passing function in options, then use it for resolve \"head\" element.\n                // Useful for Shadow Root style i.e\n                // {\n                //   insertInto: function () { return document.querySelector(\"#foo\").shadowRoot }\n                // }\n                if (typeof target === 'function') {\n                        return target();\n                }\n                if (typeof memo[target] === \"undefined\") {\n\t\t\tvar styleTarget = getTarget.call(this, target);\n\t\t\t// Special case to return head of iframe instead of iframe itself\n\t\t\tif (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n\t\t\t\ttry {\n\t\t\t\t\t// This will throw an exception if access to iframe is blocked\n\t\t\t\t\t// due to cross-origin restrictions\n\t\t\t\t\tstyleTarget = styleTarget.contentDocument.head;\n\t\t\t\t} catch(e) {\n\t\t\t\t\tstyleTarget = null;\n\t\t\t\t}\n\t\t\t}\n\t\t\tmemo[target] = styleTarget;\n\t\t}\n\t\treturn memo[target]\n\t};\n})();\n\nvar singleton = null;\nvar\tsingletonCounter = 0;\nvar\tstylesInsertedAtTop = [];\n\nvar\tfixUrls = require(\"./urls\");\n\nmodule.exports = function(list, options) {\n\tif (typeof DEBUG !== \"undefined\" && DEBUG) {\n\t\tif (typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\n\t}\n\n\toptions = options || {};\n\n\toptions.attrs = typeof options.attrs === \"object\" ? options.attrs : {};\n\n\t// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n\t// tags it will allow on a page\n\tif (!options.singleton && typeof options.singleton !== \"boolean\") options.singleton = isOldIE();\n\n\t// By default, add <style> tags to the <head> element\n        if (!options.insertInto) options.insertInto = \"head\";\n\n\t// By default, add <style> tags to the bottom of the target\n\tif (!options.insertAt) options.insertAt = \"bottom\";\n\n\tvar styles = listToStyles(list, options);\n\n\taddStylesToDom(styles, options);\n\n\treturn function update (newList) {\n\t\tvar mayRemove = [];\n\n\t\tfor (var i = 0; i < styles.length; i++) {\n\t\t\tvar item = styles[i];\n\t\t\tvar domStyle = stylesInDom[item.id];\n\n\t\t\tdomStyle.refs--;\n\t\t\tmayRemove.push(domStyle);\n\t\t}\n\n\t\tif(newList) {\n\t\t\tvar newStyles = listToStyles(newList, options);\n\t\t\taddStylesToDom(newStyles, options);\n\t\t}\n\n\t\tfor (var i = 0; i < mayRemove.length; i++) {\n\t\t\tvar domStyle = mayRemove[i];\n\n\t\t\tif(domStyle.refs === 0) {\n\t\t\t\tfor (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();\n\n\t\t\t\tdelete stylesInDom[domStyle.id];\n\t\t\t}\n\t\t}\n\t};\n};\n\nfunction addStylesToDom (styles, options) {\n\tfor (var i = 0; i < styles.length; i++) {\n\t\tvar item = styles[i];\n\t\tvar domStyle = stylesInDom[item.id];\n\n\t\tif(domStyle) {\n\t\t\tdomStyle.refs++;\n\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\n\t\t\t}\n\n\t\t\tfor(; j < item.parts.length; j++) {\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\t\t} else {\n\t\t\tvar parts = [];\n\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\n\t\t\t\tparts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\n\t\t}\n\t}\n}\n\nfunction listToStyles (list, options) {\n\tvar styles = [];\n\tvar newStyles = {};\n\n\tfor (var i = 0; i < list.length; i++) {\n\t\tvar item = list[i];\n\t\tvar id = options.base ? item[0] + options.base : item[0];\n\t\tvar css = item[1];\n\t\tvar media = item[2];\n\t\tvar sourceMap = item[3];\n\t\tvar part = {css: css, media: media, sourceMap: sourceMap};\n\n\t\tif(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});\n\t\telse newStyles[id].parts.push(part);\n\t}\n\n\treturn styles;\n}\n\nfunction insertStyleElement (options, style) {\n\tvar target = getElement(options.insertInto)\n\n\tif (!target) {\n\t\tthrow new Error(\"Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.\");\n\t}\n\n\tvar lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];\n\n\tif (options.insertAt === \"top\") {\n\t\tif (!lastStyleElementInsertedAtTop) {\n\t\t\ttarget.insertBefore(style, target.firstChild);\n\t\t} else if (lastStyleElementInsertedAtTop.nextSibling) {\n\t\t\ttarget.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);\n\t\t} else {\n\t\t\ttarget.appendChild(style);\n\t\t}\n\t\tstylesInsertedAtTop.push(style);\n\t} else if (options.insertAt === \"bottom\") {\n\t\ttarget.appendChild(style);\n\t} else if (typeof options.insertAt === \"object\" && options.insertAt.before) {\n\t\tvar nextSibling = getElement(options.insertInto + \" \" + options.insertAt.before);\n\t\ttarget.insertBefore(style, nextSibling);\n\t} else {\n\t\tthrow new Error(\"[Style Loader]\\n\\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\\n Must be 'top', 'bottom', or Object.\\n (https://github.com/webpack-contrib/style-loader#insertat)\\n\");\n\t}\n}\n\nfunction removeStyleElement (style) {\n\tif (style.parentNode === null) return false;\n\tstyle.parentNode.removeChild(style);\n\n\tvar idx = stylesInsertedAtTop.indexOf(style);\n\tif(idx >= 0) {\n\t\tstylesInsertedAtTop.splice(idx, 1);\n\t}\n}\n\nfunction createStyleElement (options) {\n\tvar style = document.createElement(\"style\");\n\n\tif(options.attrs.type === undefined) {\n\t\toptions.attrs.type = \"text/css\";\n\t}\n\n\taddAttrs(style, options.attrs);\n\tinsertStyleElement(options, style);\n\n\treturn style;\n}\n\nfunction createLinkElement (options) {\n\tvar link = document.createElement(\"link\");\n\n\tif(options.attrs.type === undefined) {\n\t\toptions.attrs.type = \"text/css\";\n\t}\n\toptions.attrs.rel = \"stylesheet\";\n\n\taddAttrs(link, options.attrs);\n\tinsertStyleElement(options, link);\n\n\treturn link;\n}\n\nfunction addAttrs (el, attrs) {\n\tObject.keys(attrs).forEach(function (key) {\n\t\tel.setAttribute(key, attrs[key]);\n\t});\n}\n\nfunction addStyle (obj, options) {\n\tvar style, update, remove, result;\n\n\t// If a transform function was defined, run it on the css\n\tif (options.transform && obj.css) {\n\t    result = options.transform(obj.css);\n\n\t    if (result) {\n\t    \t// If transform returns a value, use that instead of the original css.\n\t    \t// This allows running runtime transformations on the css.\n\t    \tobj.css = result;\n\t    } else {\n\t    \t// If the transform function returns a falsy value, don't add this css.\n\t    \t// This allows conditional loading of css\n\t    \treturn function() {\n\t    \t\t// noop\n\t    \t};\n\t    }\n\t}\n\n\tif (options.singleton) {\n\t\tvar styleIndex = singletonCounter++;\n\n\t\tstyle = singleton || (singleton = createStyleElement(options));\n\n\t\tupdate = applyToSingletonTag.bind(null, style, styleIndex, false);\n\t\tremove = applyToSingletonTag.bind(null, style, styleIndex, true);\n\n\t} else if (\n\t\tobj.sourceMap &&\n\t\ttypeof URL === \"function\" &&\n\t\ttypeof URL.createObjectURL === \"function\" &&\n\t\ttypeof URL.revokeObjectURL === \"function\" &&\n\t\ttypeof Blob === \"function\" &&\n\t\ttypeof btoa === \"function\"\n\t) {\n\t\tstyle = createLinkElement(options);\n\t\tupdate = updateLink.bind(null, style, options);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\n\t\t\tif(style.href) URL.revokeObjectURL(style.href);\n\t\t};\n\t} else {\n\t\tstyle = createStyleElement(options);\n\t\tupdate = applyToTag.bind(null, style);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\t\t};\n\t}\n\n\tupdate(obj);\n\n\treturn function updateStyle (newObj) {\n\t\tif (newObj) {\n\t\t\tif (\n\t\t\t\tnewObj.css === obj.css &&\n\t\t\t\tnewObj.media === obj.media &&\n\t\t\t\tnewObj.sourceMap === obj.sourceMap\n\t\t\t) {\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\tupdate(obj = newObj);\n\t\t} else {\n\t\t\tremove();\n\t\t}\n\t};\n}\n\nvar replaceText = (function () {\n\tvar textStore = [];\n\n\treturn function (index, replacement) {\n\t\ttextStore[index] = replacement;\n\n\t\treturn textStore.filter(Boolean).join('\\n');\n\t};\n})();\n\nfunction applyToSingletonTag (style, index, remove, obj) {\n\tvar css = remove ? \"\" : obj.css;\n\n\tif (style.styleSheet) {\n\t\tstyle.styleSheet.cssText = replaceText(index, css);\n\t} else {\n\t\tvar cssNode = document.createTextNode(css);\n\t\tvar childNodes = style.childNodes;\n\n\t\tif (childNodes[index]) style.removeChild(childNodes[index]);\n\n\t\tif (childNodes.length) {\n\t\t\tstyle.insertBefore(cssNode, childNodes[index]);\n\t\t} else {\n\t\t\tstyle.appendChild(cssNode);\n\t\t}\n\t}\n}\n\nfunction applyToTag (style, obj) {\n\tvar css = obj.css;\n\tvar media = obj.media;\n\n\tif(media) {\n\t\tstyle.setAttribute(\"media\", media)\n\t}\n\n\tif(style.styleSheet) {\n\t\tstyle.styleSheet.cssText = css;\n\t} else {\n\t\twhile(style.firstChild) {\n\t\t\tstyle.removeChild(style.firstChild);\n\t\t}\n\n\t\tstyle.appendChild(document.createTextNode(css));\n\t}\n}\n\nfunction updateLink (link, options, obj) {\n\tvar css = obj.css;\n\tvar sourceMap = obj.sourceMap;\n\n\t/*\n\t\tIf convertToAbsoluteUrls isn't defined, but sourcemaps are enabled\n\t\tand there is no publicPath defined then lets turn convertToAbsoluteUrls\n\t\ton by default.  Otherwise default to the convertToAbsoluteUrls option\n\t\tdirectly\n\t*/\n\tvar autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;\n\n\tif (options.convertToAbsoluteUrls || autoFixUrls) {\n\t\tcss = fixUrls(css);\n\t}\n\n\tif (sourceMap) {\n\t\t// http://stackoverflow.com/a/26603875\n\t\tcss += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + \" */\";\n\t}\n\n\tvar blob = new Blob([css], { type: \"text/css\" });\n\n\tvar oldSrc = link.href;\n\n\tlink.href = URL.createObjectURL(blob);\n\n\tif(oldSrc) URL.revokeObjectURL(oldSrc);\n}\n"
+      "depth": 3,
+      "source": "function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;"
     },
     {
       "id": 6,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/lib/css-base.js",
-      "name": "./node_modules/css-loader/lib/css-base.js",
-      "index": 6,
-      "index2": 1,
-      "size": 2260,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/@babel/runtime/helpers/createClass.js",
+      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "index": 11,
+      "index2": 8,
+      "size": 596,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
+        0
       ],
-      "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-      "issuerId": 7,
-      "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+      "issuerId": 4,
+      "issuerName": "./src/lib/ping.js",
       "issuerPath": [
         {
-          "id": 8,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-          "name": "./src/assets/scss/main.scss"
+          "id": 1,
+          "identifier": "multi /Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "multi ./src/index.js"
         },
         {
-          "id": 7,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-          "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss"
+          "id": 2,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "name": "./src/lib/ping.js"
         }
       ],
       "failed": false,
@@ -632,56 +859,27 @@
       "assets": [
       ],
       "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/babel-loader/lib/index.js??ref--4-0!/Users/bneigher/Desktop/template-module-webpack/src/lib/ping.js",
+          "module": "./src/lib/ping.js",
+          "moduleName": "./src/lib/ping.js",
+          "type": "cjs require",
+          "userRequest": "@babel/runtime/helpers/createClass",
+          "loc": "12:43-88"
+        }
       ],
       "usedExports": true,
       "providedExports": null,
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 5,
-      "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+      "depth": 3,
+      "source": "function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;"
     },
     {
       "id": 7,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-      "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-      "index": 5,
-      "index2": 2,
-      "size": 6604,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-      ],
-      "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-      "issuerId": 8,
-      "issuerName": "./src/assets/scss/main.scss",
-      "issuerPath": [
-        {
-          "id": 8,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-          "name": "./src/assets/scss/main.scss"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [
-      ],
-      "reasons": [
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 4,
-      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\\n/* Document\\n   ========================================================================== */\\n/**\\n * 1. Correct the line height in all browsers.\\n * 2. Prevent adjustments of font size after orientation changes in iOS.\\n */\\nhtml {\\n  line-height: 1.15;\\n  /* 1 */\\n  -webkit-text-size-adjust: 100%;\\n  /* 2 */ }\\n\\n/* Sections\\n   ========================================================================== */\\n/**\\n * Remove the margin in all browsers.\\n */\\nbody {\\n  margin: 0; }\\n\\n/**\\n * Correct the font size and margin on `h1` elements within `section` and\\n * `article` contexts in Chrome, Firefox, and Safari.\\n */\\nh1 {\\n  font-size: 2em;\\n  margin: 0.67em 0; }\\n\\n/* Grouping content\\n   ========================================================================== */\\n/**\\n * 1. Add the correct box sizing in Firefox.\\n * 2. Show the overflow in Edge and IE.\\n */\\nhr {\\n  box-sizing: content-box;\\n  /* 1 */\\n  height: 0;\\n  /* 1 */\\n  overflow: visible;\\n  /* 2 */ }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\npre {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/* Text-level semantics\\n   ========================================================================== */\\n/**\\n * Remove the gray background on active links in IE 10.\\n */\\na {\\n  background-color: transparent; }\\n\\n/**\\n * 1. Remove the bottom border in Chrome 57-\\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\\n */\\nabbr[title] {\\n  border-bottom: none;\\n  /* 1 */\\n  text-decoration: underline;\\n  /* 2 */\\n  text-decoration: underline dotted;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font weight in Chrome, Edge, and Safari.\\n */\\nb,\\nstrong {\\n  font-weight: bolder; }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\ncode,\\nkbd,\\nsamp {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font size in all browsers.\\n */\\nsmall {\\n  font-size: 80%; }\\n\\n/**\\n * Prevent `sub` and `sup` elements from affecting the line height in\\n * all browsers.\\n */\\nsub,\\nsup {\\n  font-size: 75%;\\n  line-height: 0;\\n  position: relative;\\n  vertical-align: baseline; }\\n\\nsub {\\n  bottom: -0.25em; }\\n\\nsup {\\n  top: -0.5em; }\\n\\n/* Embedded content\\n   ========================================================================== */\\n/**\\n * Remove the border on images inside links in IE 10.\\n */\\nimg {\\n  border-style: none; }\\n\\n/* Forms\\n   ========================================================================== */\\n/**\\n * 1. Change the font styles in all browsers.\\n * 2. Remove the margin in Firefox and Safari.\\n */\\nbutton,\\ninput,\\noptgroup,\\nselect,\\ntextarea {\\n  font-family: inherit;\\n  /* 1 */\\n  font-size: 100%;\\n  /* 1 */\\n  line-height: 1.15;\\n  /* 1 */\\n  margin: 0;\\n  /* 2 */ }\\n\\n/**\\n * Show the overflow in IE.\\n * 1. Show the overflow in Edge.\\n */\\nbutton,\\ninput {\\n  /* 1 */\\n  overflow: visible; }\\n\\n/**\\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\\n * 1. Remove the inheritance of text transform in Firefox.\\n */\\nbutton,\\nselect {\\n  /* 1 */\\n  text-transform: none; }\\n\\n/**\\n * Correct the inability to style clickable types in iOS and Safari.\\n */\\nbutton,\\n[type=\\\"button\\\"],\\n[type=\\\"reset\\\"],\\n[type=\\\"submit\\\"] {\\n  -webkit-appearance: button; }\\n\\n/**\\n * Remove the inner border and padding in Firefox.\\n */\\nbutton::-moz-focus-inner,\\n[type=\\\"button\\\"]::-moz-focus-inner,\\n[type=\\\"reset\\\"]::-moz-focus-inner,\\n[type=\\\"submit\\\"]::-moz-focus-inner {\\n  border-style: none;\\n  padding: 0; }\\n\\n/**\\n * Restore the focus styles unset by the previous rule.\\n */\\nbutton:-moz-focusring,\\n[type=\\\"button\\\"]:-moz-focusring,\\n[type=\\\"reset\\\"]:-moz-focusring,\\n[type=\\\"submit\\\"]:-moz-focusring {\\n  outline: 1px dotted ButtonText; }\\n\\n/**\\n * Correct the padding in Firefox.\\n */\\nfieldset {\\n  padding: 0.35em 0.75em 0.625em; }\\n\\n/**\\n * 1. Correct the text wrapping in Edge and IE.\\n * 2. Correct the color inheritance from `fieldset` elements in IE.\\n * 3. Remove the padding so developers are not caught out when they zero out\\n *    `fieldset` elements in all browsers.\\n */\\nlegend {\\n  box-sizing: border-box;\\n  /* 1 */\\n  color: inherit;\\n  /* 2 */\\n  display: table;\\n  /* 1 */\\n  max-width: 100%;\\n  /* 1 */\\n  padding: 0;\\n  /* 3 */\\n  white-space: normal;\\n  /* 1 */ }\\n\\n/**\\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\\n */\\nprogress {\\n  vertical-align: baseline; }\\n\\n/**\\n * Remove the default vertical scrollbar in IE 10+.\\n */\\ntextarea {\\n  overflow: auto; }\\n\\n/**\\n * 1. Add the correct box sizing in IE 10.\\n * 2. Remove the padding in IE 10.\\n */\\n[type=\\\"checkbox\\\"],\\n[type=\\\"radio\\\"] {\\n  box-sizing: border-box;\\n  /* 1 */\\n  padding: 0;\\n  /* 2 */ }\\n\\n/**\\n * Correct the cursor style of increment and decrement buttons in Chrome.\\n */\\n[type=\\\"number\\\"]::-webkit-inner-spin-button,\\n[type=\\\"number\\\"]::-webkit-outer-spin-button {\\n  height: auto; }\\n\\n/**\\n * 1. Correct the odd appearance in Chrome and Safari.\\n * 2. Correct the outline style in Safari.\\n */\\n[type=\\\"search\\\"] {\\n  -webkit-appearance: textfield;\\n  /* 1 */\\n  outline-offset: -2px;\\n  /* 2 */ }\\n\\n/**\\n * Remove the inner padding in Chrome and Safari on macOS.\\n */\\n[type=\\\"search\\\"]::-webkit-search-decoration {\\n  -webkit-appearance: none; }\\n\\n/**\\n * 1. Correct the inability to style clickable types in iOS and Safari.\\n * 2. Change font properties to `inherit` in Safari.\\n */\\n::-webkit-file-upload-button {\\n  -webkit-appearance: button;\\n  /* 1 */\\n  font: inherit;\\n  /* 2 */ }\\n\\n/* Interactive\\n   ========================================================================== */\\n/*\\n * Add the correct display in Edge, IE 10+, and Firefox.\\n */\\ndetails {\\n  display: block; }\\n\\n/*\\n * Add the correct display in all browsers.\\n */\\nsummary {\\n  display: list-item; }\\n\\n/* Misc\\n   ========================================================================== */\\n/**\\n * Add the correct display in IE 10+.\\n */\\ntemplate {\\n  display: none; }\\n\\n/**\\n * Add the correct display in IE 10.\\n */\\n[hidden] {\\n  display: none; }\\n\\nbody {\\n  background-color: #fff; }\\n\", \"\"]);\n\n// exports\n"
-    },
-    {
-      "id": 8,
-      "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
       "name": "./src/assets/scss/main.scss",
       "index": null,
       "index2": null,
@@ -709,6 +907,168 @@
       ],
       "depth": null,
       "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": 8,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+      "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+      "index": 5,
+      "index2": 2,
+      "size": 6604,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+      ],
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+      "issuerId": 7,
+      "issuerName": "./src/assets/scss/main.scss",
+      "issuerPath": [
+        {
+          "id": 7,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+          "name": "./src/assets/scss/main.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\\n/* Document\\n   ========================================================================== */\\n/**\\n * 1. Correct the line height in all browsers.\\n * 2. Prevent adjustments of font size after orientation changes in iOS.\\n */\\nhtml {\\n  line-height: 1.15;\\n  /* 1 */\\n  -webkit-text-size-adjust: 100%;\\n  /* 2 */ }\\n\\n/* Sections\\n   ========================================================================== */\\n/**\\n * Remove the margin in all browsers.\\n */\\nbody {\\n  margin: 0; }\\n\\n/**\\n * Correct the font size and margin on `h1` elements within `section` and\\n * `article` contexts in Chrome, Firefox, and Safari.\\n */\\nh1 {\\n  font-size: 2em;\\n  margin: 0.67em 0; }\\n\\n/* Grouping content\\n   ========================================================================== */\\n/**\\n * 1. Add the correct box sizing in Firefox.\\n * 2. Show the overflow in Edge and IE.\\n */\\nhr {\\n  box-sizing: content-box;\\n  /* 1 */\\n  height: 0;\\n  /* 1 */\\n  overflow: visible;\\n  /* 2 */ }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\npre {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/* Text-level semantics\\n   ========================================================================== */\\n/**\\n * Remove the gray background on active links in IE 10.\\n */\\na {\\n  background-color: transparent; }\\n\\n/**\\n * 1. Remove the bottom border in Chrome 57-\\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\\n */\\nabbr[title] {\\n  border-bottom: none;\\n  /* 1 */\\n  text-decoration: underline;\\n  /* 2 */\\n  text-decoration: underline dotted;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font weight in Chrome, Edge, and Safari.\\n */\\nb,\\nstrong {\\n  font-weight: bolder; }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\ncode,\\nkbd,\\nsamp {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font size in all browsers.\\n */\\nsmall {\\n  font-size: 80%; }\\n\\n/**\\n * Prevent `sub` and `sup` elements from affecting the line height in\\n * all browsers.\\n */\\nsub,\\nsup {\\n  font-size: 75%;\\n  line-height: 0;\\n  position: relative;\\n  vertical-align: baseline; }\\n\\nsub {\\n  bottom: -0.25em; }\\n\\nsup {\\n  top: -0.5em; }\\n\\n/* Embedded content\\n   ========================================================================== */\\n/**\\n * Remove the border on images inside links in IE 10.\\n */\\nimg {\\n  border-style: none; }\\n\\n/* Forms\\n   ========================================================================== */\\n/**\\n * 1. Change the font styles in all browsers.\\n * 2. Remove the margin in Firefox and Safari.\\n */\\nbutton,\\ninput,\\noptgroup,\\nselect,\\ntextarea {\\n  font-family: inherit;\\n  /* 1 */\\n  font-size: 100%;\\n  /* 1 */\\n  line-height: 1.15;\\n  /* 1 */\\n  margin: 0;\\n  /* 2 */ }\\n\\n/**\\n * Show the overflow in IE.\\n * 1. Show the overflow in Edge.\\n */\\nbutton,\\ninput {\\n  /* 1 */\\n  overflow: visible; }\\n\\n/**\\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\\n * 1. Remove the inheritance of text transform in Firefox.\\n */\\nbutton,\\nselect {\\n  /* 1 */\\n  text-transform: none; }\\n\\n/**\\n * Correct the inability to style clickable types in iOS and Safari.\\n */\\nbutton,\\n[type=\\\"button\\\"],\\n[type=\\\"reset\\\"],\\n[type=\\\"submit\\\"] {\\n  -webkit-appearance: button; }\\n\\n/**\\n * Remove the inner border and padding in Firefox.\\n */\\nbutton::-moz-focus-inner,\\n[type=\\\"button\\\"]::-moz-focus-inner,\\n[type=\\\"reset\\\"]::-moz-focus-inner,\\n[type=\\\"submit\\\"]::-moz-focus-inner {\\n  border-style: none;\\n  padding: 0; }\\n\\n/**\\n * Restore the focus styles unset by the previous rule.\\n */\\nbutton:-moz-focusring,\\n[type=\\\"button\\\"]:-moz-focusring,\\n[type=\\\"reset\\\"]:-moz-focusring,\\n[type=\\\"submit\\\"]:-moz-focusring {\\n  outline: 1px dotted ButtonText; }\\n\\n/**\\n * Correct the padding in Firefox.\\n */\\nfieldset {\\n  padding: 0.35em 0.75em 0.625em; }\\n\\n/**\\n * 1. Correct the text wrapping in Edge and IE.\\n * 2. Correct the color inheritance from `fieldset` elements in IE.\\n * 3. Remove the padding so developers are not caught out when they zero out\\n *    `fieldset` elements in all browsers.\\n */\\nlegend {\\n  box-sizing: border-box;\\n  /* 1 */\\n  color: inherit;\\n  /* 2 */\\n  display: table;\\n  /* 1 */\\n  max-width: 100%;\\n  /* 1 */\\n  padding: 0;\\n  /* 3 */\\n  white-space: normal;\\n  /* 1 */ }\\n\\n/**\\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\\n */\\nprogress {\\n  vertical-align: baseline; }\\n\\n/**\\n * Remove the default vertical scrollbar in IE 10+.\\n */\\ntextarea {\\n  overflow: auto; }\\n\\n/**\\n * 1. Add the correct box sizing in IE 10.\\n * 2. Remove the padding in IE 10.\\n */\\n[type=\\\"checkbox\\\"],\\n[type=\\\"radio\\\"] {\\n  box-sizing: border-box;\\n  /* 1 */\\n  padding: 0;\\n  /* 2 */ }\\n\\n/**\\n * Correct the cursor style of increment and decrement buttons in Chrome.\\n */\\n[type=\\\"number\\\"]::-webkit-inner-spin-button,\\n[type=\\\"number\\\"]::-webkit-outer-spin-button {\\n  height: auto; }\\n\\n/**\\n * 1. Correct the odd appearance in Chrome and Safari.\\n * 2. Correct the outline style in Safari.\\n */\\n[type=\\\"search\\\"] {\\n  -webkit-appearance: textfield;\\n  /* 1 */\\n  outline-offset: -2px;\\n  /* 2 */ }\\n\\n/**\\n * Remove the inner padding in Chrome and Safari on macOS.\\n */\\n[type=\\\"search\\\"]::-webkit-search-decoration {\\n  -webkit-appearance: none; }\\n\\n/**\\n * 1. Correct the inability to style clickable types in iOS and Safari.\\n * 2. Change font properties to `inherit` in Safari.\\n */\\n::-webkit-file-upload-button {\\n  -webkit-appearance: button;\\n  /* 1 */\\n  font: inherit;\\n  /* 2 */ }\\n\\n/* Interactive\\n   ========================================================================== */\\n/*\\n * Add the correct display in Edge, IE 10+, and Firefox.\\n */\\ndetails {\\n  display: block; }\\n\\n/*\\n * Add the correct display in all browsers.\\n */\\nsummary {\\n  display: list-item; }\\n\\n/* Misc\\n   ========================================================================== */\\n/**\\n * Add the correct display in IE 10+.\\n */\\ntemplate {\\n  display: none; }\\n\\n/**\\n * Add the correct display in IE 10.\\n */\\n[hidden] {\\n  display: none; }\\n\\nbody {\\n  background-color: #fff; }\\n\", \"\"]);\n\n// exports\n"
+    },
+    {
+      "id": 9,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "index": 6,
+      "index2": 1,
+      "size": 2260,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+      ],
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+      "issuerId": 8,
+      "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+      "issuerPath": [
+        {
+          "id": 7,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+          "name": "./src/assets/scss/main.scss"
+        },
+        {
+          "id": 8,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+          "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5,
+      "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+    },
+    {
+      "id": 10,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "index": 7,
+      "index2": 4,
+      "size": 10313,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+      ],
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+      "issuerId": 7,
+      "issuerName": "./src/assets/scss/main.scss",
+      "issuerPath": [
+        {
+          "id": 7,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+          "name": "./src/assets/scss/main.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n\nvar stylesInDom = {};\n\nvar\tmemoize = function (fn) {\n\tvar memo;\n\n\treturn function () {\n\t\tif (typeof memo === \"undefined\") memo = fn.apply(this, arguments);\n\t\treturn memo;\n\t};\n};\n\nvar isOldIE = memoize(function () {\n\t// Test for IE <= 9 as proposed by Browserhacks\n\t// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n\t// Tests for existence of standard globals is to allow style-loader\n\t// to operate correctly into non-standard environments\n\t// @see https://github.com/webpack-contrib/style-loader/issues/177\n\treturn window && document && document.all && !window.atob;\n});\n\nvar getTarget = function (target, parent) {\n  if (parent){\n    return parent.querySelector(target);\n  }\n  return document.querySelector(target);\n};\n\nvar getElement = (function (fn) {\n\tvar memo = {};\n\n\treturn function(target, parent) {\n                // If passing function in options, then use it for resolve \"head\" element.\n                // Useful for Shadow Root style i.e\n                // {\n                //   insertInto: function () { return document.querySelector(\"#foo\").shadowRoot }\n                // }\n                if (typeof target === 'function') {\n                        return target();\n                }\n                if (typeof memo[target] === \"undefined\") {\n\t\t\tvar styleTarget = getTarget.call(this, target, parent);\n\t\t\t// Special case to return head of iframe instead of iframe itself\n\t\t\tif (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n\t\t\t\ttry {\n\t\t\t\t\t// This will throw an exception if access to iframe is blocked\n\t\t\t\t\t// due to cross-origin restrictions\n\t\t\t\t\tstyleTarget = styleTarget.contentDocument.head;\n\t\t\t\t} catch(e) {\n\t\t\t\t\tstyleTarget = null;\n\t\t\t\t}\n\t\t\t}\n\t\t\tmemo[target] = styleTarget;\n\t\t}\n\t\treturn memo[target]\n\t};\n})();\n\nvar singleton = null;\nvar\tsingletonCounter = 0;\nvar\tstylesInsertedAtTop = [];\n\nvar\tfixUrls = require(\"./urls\");\n\nmodule.exports = function(list, options) {\n\tif (typeof DEBUG !== \"undefined\" && DEBUG) {\n\t\tif (typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\n\t}\n\n\toptions = options || {};\n\n\toptions.attrs = typeof options.attrs === \"object\" ? options.attrs : {};\n\n\t// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n\t// tags it will allow on a page\n\tif (!options.singleton && typeof options.singleton !== \"boolean\") options.singleton = isOldIE();\n\n\t// By default, add <style> tags to the <head> element\n        if (!options.insertInto) options.insertInto = \"head\";\n\n\t// By default, add <style> tags to the bottom of the target\n\tif (!options.insertAt) options.insertAt = \"bottom\";\n\n\tvar styles = listToStyles(list, options);\n\n\taddStylesToDom(styles, options);\n\n\treturn function update (newList) {\n\t\tvar mayRemove = [];\n\n\t\tfor (var i = 0; i < styles.length; i++) {\n\t\t\tvar item = styles[i];\n\t\t\tvar domStyle = stylesInDom[item.id];\n\n\t\t\tdomStyle.refs--;\n\t\t\tmayRemove.push(domStyle);\n\t\t}\n\n\t\tif(newList) {\n\t\t\tvar newStyles = listToStyles(newList, options);\n\t\t\taddStylesToDom(newStyles, options);\n\t\t}\n\n\t\tfor (var i = 0; i < mayRemove.length; i++) {\n\t\t\tvar domStyle = mayRemove[i];\n\n\t\t\tif(domStyle.refs === 0) {\n\t\t\t\tfor (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();\n\n\t\t\t\tdelete stylesInDom[domStyle.id];\n\t\t\t}\n\t\t}\n\t};\n};\n\nfunction addStylesToDom (styles, options) {\n\tfor (var i = 0; i < styles.length; i++) {\n\t\tvar item = styles[i];\n\t\tvar domStyle = stylesInDom[item.id];\n\n\t\tif(domStyle) {\n\t\t\tdomStyle.refs++;\n\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\n\t\t\t}\n\n\t\t\tfor(; j < item.parts.length; j++) {\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\t\t} else {\n\t\t\tvar parts = [];\n\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\n\t\t\t\tparts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\n\t\t}\n\t}\n}\n\nfunction listToStyles (list, options) {\n\tvar styles = [];\n\tvar newStyles = {};\n\n\tfor (var i = 0; i < list.length; i++) {\n\t\tvar item = list[i];\n\t\tvar id = options.base ? item[0] + options.base : item[0];\n\t\tvar css = item[1];\n\t\tvar media = item[2];\n\t\tvar sourceMap = item[3];\n\t\tvar part = {css: css, media: media, sourceMap: sourceMap};\n\n\t\tif(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});\n\t\telse newStyles[id].parts.push(part);\n\t}\n\n\treturn styles;\n}\n\nfunction insertStyleElement (options, style) {\n\tvar target = getElement(options.insertInto)\n\n\tif (!target) {\n\t\tthrow new Error(\"Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.\");\n\t}\n\n\tvar lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];\n\n\tif (options.insertAt === \"top\") {\n\t\tif (!lastStyleElementInsertedAtTop) {\n\t\t\ttarget.insertBefore(style, target.firstChild);\n\t\t} else if (lastStyleElementInsertedAtTop.nextSibling) {\n\t\t\ttarget.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);\n\t\t} else {\n\t\t\ttarget.appendChild(style);\n\t\t}\n\t\tstylesInsertedAtTop.push(style);\n\t} else if (options.insertAt === \"bottom\") {\n\t\ttarget.appendChild(style);\n\t} else if (typeof options.insertAt === \"object\" && options.insertAt.before) {\n\t\tvar nextSibling = getElement(options.insertAt.before, target);\n\t\ttarget.insertBefore(style, nextSibling);\n\t} else {\n\t\tthrow new Error(\"[Style Loader]\\n\\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\\n Must be 'top', 'bottom', or Object.\\n (https://github.com/webpack-contrib/style-loader#insertat)\\n\");\n\t}\n}\n\nfunction removeStyleElement (style) {\n\tif (style.parentNode === null) return false;\n\tstyle.parentNode.removeChild(style);\n\n\tvar idx = stylesInsertedAtTop.indexOf(style);\n\tif(idx >= 0) {\n\t\tstylesInsertedAtTop.splice(idx, 1);\n\t}\n}\n\nfunction createStyleElement (options) {\n\tvar style = document.createElement(\"style\");\n\n\tif(options.attrs.type === undefined) {\n\t\toptions.attrs.type = \"text/css\";\n\t}\n\n\tif(options.attrs.nonce === undefined) {\n\t\tvar nonce = getNonce();\n\t\tif (nonce) {\n\t\t\toptions.attrs.nonce = nonce;\n\t\t}\n\t}\n\n\taddAttrs(style, options.attrs);\n\tinsertStyleElement(options, style);\n\n\treturn style;\n}\n\nfunction createLinkElement (options) {\n\tvar link = document.createElement(\"link\");\n\n\tif(options.attrs.type === undefined) {\n\t\toptions.attrs.type = \"text/css\";\n\t}\n\toptions.attrs.rel = \"stylesheet\";\n\n\taddAttrs(link, options.attrs);\n\tinsertStyleElement(options, link);\n\n\treturn link;\n}\n\nfunction addAttrs (el, attrs) {\n\tObject.keys(attrs).forEach(function (key) {\n\t\tel.setAttribute(key, attrs[key]);\n\t});\n}\n\nfunction getNonce() {\n\tif (typeof __webpack_nonce__ === 'undefined') {\n\t\treturn null;\n\t}\n\n\treturn __webpack_nonce__;\n}\n\nfunction addStyle (obj, options) {\n\tvar style, update, remove, result;\n\n\t// If a transform function was defined, run it on the css\n\tif (options.transform && obj.css) {\n\t    result = options.transform(obj.css);\n\n\t    if (result) {\n\t    \t// If transform returns a value, use that instead of the original css.\n\t    \t// This allows running runtime transformations on the css.\n\t    \tobj.css = result;\n\t    } else {\n\t    \t// If the transform function returns a falsy value, don't add this css.\n\t    \t// This allows conditional loading of css\n\t    \treturn function() {\n\t    \t\t// noop\n\t    \t};\n\t    }\n\t}\n\n\tif (options.singleton) {\n\t\tvar styleIndex = singletonCounter++;\n\n\t\tstyle = singleton || (singleton = createStyleElement(options));\n\n\t\tupdate = applyToSingletonTag.bind(null, style, styleIndex, false);\n\t\tremove = applyToSingletonTag.bind(null, style, styleIndex, true);\n\n\t} else if (\n\t\tobj.sourceMap &&\n\t\ttypeof URL === \"function\" &&\n\t\ttypeof URL.createObjectURL === \"function\" &&\n\t\ttypeof URL.revokeObjectURL === \"function\" &&\n\t\ttypeof Blob === \"function\" &&\n\t\ttypeof btoa === \"function\"\n\t) {\n\t\tstyle = createLinkElement(options);\n\t\tupdate = updateLink.bind(null, style, options);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\n\t\t\tif(style.href) URL.revokeObjectURL(style.href);\n\t\t};\n\t} else {\n\t\tstyle = createStyleElement(options);\n\t\tupdate = applyToTag.bind(null, style);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\t\t};\n\t}\n\n\tupdate(obj);\n\n\treturn function updateStyle (newObj) {\n\t\tif (newObj) {\n\t\t\tif (\n\t\t\t\tnewObj.css === obj.css &&\n\t\t\t\tnewObj.media === obj.media &&\n\t\t\t\tnewObj.sourceMap === obj.sourceMap\n\t\t\t) {\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\tupdate(obj = newObj);\n\t\t} else {\n\t\t\tremove();\n\t\t}\n\t};\n}\n\nvar replaceText = (function () {\n\tvar textStore = [];\n\n\treturn function (index, replacement) {\n\t\ttextStore[index] = replacement;\n\n\t\treturn textStore.filter(Boolean).join('\\n');\n\t};\n})();\n\nfunction applyToSingletonTag (style, index, remove, obj) {\n\tvar css = remove ? \"\" : obj.css;\n\n\tif (style.styleSheet) {\n\t\tstyle.styleSheet.cssText = replaceText(index, css);\n\t} else {\n\t\tvar cssNode = document.createTextNode(css);\n\t\tvar childNodes = style.childNodes;\n\n\t\tif (childNodes[index]) style.removeChild(childNodes[index]);\n\n\t\tif (childNodes.length) {\n\t\t\tstyle.insertBefore(cssNode, childNodes[index]);\n\t\t} else {\n\t\t\tstyle.appendChild(cssNode);\n\t\t}\n\t}\n}\n\nfunction applyToTag (style, obj) {\n\tvar css = obj.css;\n\tvar media = obj.media;\n\n\tif(media) {\n\t\tstyle.setAttribute(\"media\", media)\n\t}\n\n\tif(style.styleSheet) {\n\t\tstyle.styleSheet.cssText = css;\n\t} else {\n\t\twhile(style.firstChild) {\n\t\t\tstyle.removeChild(style.firstChild);\n\t\t}\n\n\t\tstyle.appendChild(document.createTextNode(css));\n\t}\n}\n\nfunction updateLink (link, options, obj) {\n\tvar css = obj.css;\n\tvar sourceMap = obj.sourceMap;\n\n\t/*\n\t\tIf convertToAbsoluteUrls isn't defined, but sourcemaps are enabled\n\t\tand there is no publicPath defined then lets turn convertToAbsoluteUrls\n\t\ton by default.  Otherwise default to the convertToAbsoluteUrls option\n\t\tdirectly\n\t*/\n\tvar autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;\n\n\tif (options.convertToAbsoluteUrls || autoFixUrls) {\n\t\tcss = fixUrls(css);\n\t}\n\n\tif (sourceMap) {\n\t\t// http://stackoverflow.com/a/26603875\n\t\tcss += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + \" */\";\n\t}\n\n\tvar blob = new Blob([css], { type: \"text/css\" });\n\n\tvar oldSrc = link.href;\n\n\tlink.href = URL.createObjectURL(blob);\n\n\tif(oldSrc) URL.revokeObjectURL(oldSrc);\n}\n"
+    },
+    {
+      "id": 11,
+      "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "index": 8,
+      "index2": 3,
+      "size": 3013,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+      ],
+      "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/lib/addStyles.js",
+      "issuerId": 10,
+      "issuerName": "./node_modules/style-loader/lib/addStyles.js",
+      "issuerPath": [
+        {
+          "id": 7,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+          "name": "./src/assets/scss/main.scss"
+        },
+        {
+          "id": 10,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/style-loader/lib/addStyles.js",
+          "name": "./node_modules/style-loader/lib/addStyles.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5,
+      "source": "\n/**\n * When source maps are enabled, `style-loader` uses a link element with a data-uri to\n * embed the css on the page. This breaks all relative urls because now they are relative to a\n * bundle instead of the current page.\n *\n * One solution is to only use full urls, but that may be impossible.\n *\n * Instead, this function \"fixes\" the relative urls to be absolute according to the current page location.\n *\n * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.\n *\n */\n\nmodule.exports = function (css) {\n  // get current location\n  var location = typeof window !== \"undefined\" && window.location;\n\n  if (!location) {\n    throw new Error(\"fixUrls requires window.location\");\n  }\n\n\t// blank or null?\n\tif (!css || typeof css !== \"string\") {\n\t  return css;\n  }\n\n  var baseUrl = location.protocol + \"//\" + location.host;\n  var currentDir = baseUrl + location.pathname.replace(/\\/[^\\/]*$/, \"/\");\n\n\t// convert each url(...)\n\t/*\n\tThis regular expression is just a way to recursively match brackets within\n\ta string.\n\n\t /url\\s*\\(  = Match on the word \"url\" with any whitespace after it and then a parens\n\t   (  = Start a capturing group\n\t     (?:  = Start a non-capturing group\n\t         [^)(]  = Match anything that isn't a parentheses\n\t         |  = OR\n\t         \\(  = Match a start parentheses\n\t             (?:  = Start another non-capturing groups\n\t                 [^)(]+  = Match anything that isn't a parentheses\n\t                 |  = OR\n\t                 \\(  = Match a start parentheses\n\t                     [^)(]*  = Match anything that isn't a parentheses\n\t                 \\)  = Match a end parentheses\n\t             )  = End Group\n              *\\) = Match anything and then a close parens\n          )  = Close non-capturing group\n          *  = Match anything\n       )  = Close capturing group\n\t \\)  = Match a close parens\n\n\t /gi  = Get all matches, not the first.  Be case insensitive.\n\t */\n\tvar fixedCss = css.replace(/url\\s*\\(((?:[^)(]|\\((?:[^)(]+|\\([^)(]*\\))*\\))*)\\)/gi, function(fullMatch, origUrl) {\n\t\t// strip quotes (if they exist)\n\t\tvar unquotedOrigUrl = origUrl\n\t\t\t.trim()\n\t\t\t.replace(/^\"(.*)\"$/, function(o, $1){ return $1; })\n\t\t\t.replace(/^'(.*)'$/, function(o, $1){ return $1; });\n\n\t\t// already a full url? no change\n\t\tif (/^(#|data:|http:\\/\\/|https:\\/\\/|file:\\/\\/\\/|\\s*$)/i.test(unquotedOrigUrl)) {\n\t\t  return fullMatch;\n\t\t}\n\n\t\t// convert the url to a full url\n\t\tvar newUrl;\n\n\t\tif (unquotedOrigUrl.indexOf(\"//\") === 0) {\n\t\t  \t//TODO: should we add protocol?\n\t\t\tnewUrl = unquotedOrigUrl;\n\t\t} else if (unquotedOrigUrl.indexOf(\"/\") === 0) {\n\t\t\t// path should be relative to the base url\n\t\t\tnewUrl = baseUrl + unquotedOrigUrl; // already starts with '/'\n\t\t} else {\n\t\t\t// path should be relative to current directory\n\t\t\tnewUrl = currentDir + unquotedOrigUrl.replace(/^\\.\\//, \"\"); // Strip leading './'\n\t\t}\n\n\t\t// send back the fixed url(...)\n\t\treturn \"url(\" + JSON.stringify(newUrl) + \")\";\n\t});\n\n\t// send back the fixed css\n\treturn fixedCss;\n};\n"
     }
   ],
   "filteredModules": 0,
@@ -719,7 +1079,7 @@
       "warnings": [
       ],
       "publicPath": "",
-      "outputPath": "/Users/bneigher/Desktop/MyWork/template-module-webpack/dist",
+      "outputPath": "/Users/bneigher/Desktop/template-module-webpack/dist",
       "assetsByChunkName": {
       },
       "assets": [
@@ -765,7 +1125,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "748361b56b54f2f4855a",
+          "hash": "f273ba2fab2392d5d736",
           "siblings": [
           ],
           "parents": [
@@ -777,55 +1137,7 @@
           "modules": [
             {
               "id": 0,
-              "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/lib/css-base.js",
-              "name": "./node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-              "issuerId": 1,
-              "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-              "issuerPath": [
-                {
-                  "id": 1,
-                  "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-                  "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss"
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "assets": [
-              ],
-              "reasons": [
-                {
-                  "moduleId": 1,
-                  "moduleIdentifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-                  "module": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-                  "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-                  "type": "cjs require",
-                  "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
-                  "loc": "1:27-86"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [
-                "ModuleConcatenation bailout: Module is not an ECMAScript module"
-              ],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            },
-            {
-              "id": 1,
-              "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
               "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
               "index": 0,
               "index2": 1,
@@ -853,7 +1165,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "!!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss"
+                  "userRequest": "!!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss"
                 }
               ],
               "usedExports": true,
@@ -863,6 +1175,54 @@
               ],
               "depth": 0,
               "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\\n/* Document\\n   ========================================================================== */\\n/**\\n * 1. Correct the line height in all browsers.\\n * 2. Prevent adjustments of font size after orientation changes in iOS.\\n */\\nhtml {\\n  line-height: 1.15;\\n  /* 1 */\\n  -webkit-text-size-adjust: 100%;\\n  /* 2 */ }\\n\\n/* Sections\\n   ========================================================================== */\\n/**\\n * Remove the margin in all browsers.\\n */\\nbody {\\n  margin: 0; }\\n\\n/**\\n * Correct the font size and margin on `h1` elements within `section` and\\n * `article` contexts in Chrome, Firefox, and Safari.\\n */\\nh1 {\\n  font-size: 2em;\\n  margin: 0.67em 0; }\\n\\n/* Grouping content\\n   ========================================================================== */\\n/**\\n * 1. Add the correct box sizing in Firefox.\\n * 2. Show the overflow in Edge and IE.\\n */\\nhr {\\n  box-sizing: content-box;\\n  /* 1 */\\n  height: 0;\\n  /* 1 */\\n  overflow: visible;\\n  /* 2 */ }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\npre {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/* Text-level semantics\\n   ========================================================================== */\\n/**\\n * Remove the gray background on active links in IE 10.\\n */\\na {\\n  background-color: transparent; }\\n\\n/**\\n * 1. Remove the bottom border in Chrome 57-\\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\\n */\\nabbr[title] {\\n  border-bottom: none;\\n  /* 1 */\\n  text-decoration: underline;\\n  /* 2 */\\n  text-decoration: underline dotted;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font weight in Chrome, Edge, and Safari.\\n */\\nb,\\nstrong {\\n  font-weight: bolder; }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\ncode,\\nkbd,\\nsamp {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font size in all browsers.\\n */\\nsmall {\\n  font-size: 80%; }\\n\\n/**\\n * Prevent `sub` and `sup` elements from affecting the line height in\\n * all browsers.\\n */\\nsub,\\nsup {\\n  font-size: 75%;\\n  line-height: 0;\\n  position: relative;\\n  vertical-align: baseline; }\\n\\nsub {\\n  bottom: -0.25em; }\\n\\nsup {\\n  top: -0.5em; }\\n\\n/* Embedded content\\n   ========================================================================== */\\n/**\\n * Remove the border on images inside links in IE 10.\\n */\\nimg {\\n  border-style: none; }\\n\\n/* Forms\\n   ========================================================================== */\\n/**\\n * 1. Change the font styles in all browsers.\\n * 2. Remove the margin in Firefox and Safari.\\n */\\nbutton,\\ninput,\\noptgroup,\\nselect,\\ntextarea {\\n  font-family: inherit;\\n  /* 1 */\\n  font-size: 100%;\\n  /* 1 */\\n  line-height: 1.15;\\n  /* 1 */\\n  margin: 0;\\n  /* 2 */ }\\n\\n/**\\n * Show the overflow in IE.\\n * 1. Show the overflow in Edge.\\n */\\nbutton,\\ninput {\\n  /* 1 */\\n  overflow: visible; }\\n\\n/**\\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\\n * 1. Remove the inheritance of text transform in Firefox.\\n */\\nbutton,\\nselect {\\n  /* 1 */\\n  text-transform: none; }\\n\\n/**\\n * Correct the inability to style clickable types in iOS and Safari.\\n */\\nbutton,\\n[type=\\\"button\\\"],\\n[type=\\\"reset\\\"],\\n[type=\\\"submit\\\"] {\\n  -webkit-appearance: button; }\\n\\n/**\\n * Remove the inner border and padding in Firefox.\\n */\\nbutton::-moz-focus-inner,\\n[type=\\\"button\\\"]::-moz-focus-inner,\\n[type=\\\"reset\\\"]::-moz-focus-inner,\\n[type=\\\"submit\\\"]::-moz-focus-inner {\\n  border-style: none;\\n  padding: 0; }\\n\\n/**\\n * Restore the focus styles unset by the previous rule.\\n */\\nbutton:-moz-focusring,\\n[type=\\\"button\\\"]:-moz-focusring,\\n[type=\\\"reset\\\"]:-moz-focusring,\\n[type=\\\"submit\\\"]:-moz-focusring {\\n  outline: 1px dotted ButtonText; }\\n\\n/**\\n * Correct the padding in Firefox.\\n */\\nfieldset {\\n  padding: 0.35em 0.75em 0.625em; }\\n\\n/**\\n * 1. Correct the text wrapping in Edge and IE.\\n * 2. Correct the color inheritance from `fieldset` elements in IE.\\n * 3. Remove the padding so developers are not caught out when they zero out\\n *    `fieldset` elements in all browsers.\\n */\\nlegend {\\n  box-sizing: border-box;\\n  /* 1 */\\n  color: inherit;\\n  /* 2 */\\n  display: table;\\n  /* 1 */\\n  max-width: 100%;\\n  /* 1 */\\n  padding: 0;\\n  /* 3 */\\n  white-space: normal;\\n  /* 1 */ }\\n\\n/**\\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\\n */\\nprogress {\\n  vertical-align: baseline; }\\n\\n/**\\n * Remove the default vertical scrollbar in IE 10+.\\n */\\ntextarea {\\n  overflow: auto; }\\n\\n/**\\n * 1. Add the correct box sizing in IE 10.\\n * 2. Remove the padding in IE 10.\\n */\\n[type=\\\"checkbox\\\"],\\n[type=\\\"radio\\\"] {\\n  box-sizing: border-box;\\n  /* 1 */\\n  padding: 0;\\n  /* 2 */ }\\n\\n/**\\n * Correct the cursor style of increment and decrement buttons in Chrome.\\n */\\n[type=\\\"number\\\"]::-webkit-inner-spin-button,\\n[type=\\\"number\\\"]::-webkit-outer-spin-button {\\n  height: auto; }\\n\\n/**\\n * 1. Correct the odd appearance in Chrome and Safari.\\n * 2. Correct the outline style in Safari.\\n */\\n[type=\\\"search\\\"] {\\n  -webkit-appearance: textfield;\\n  /* 1 */\\n  outline-offset: -2px;\\n  /* 2 */ }\\n\\n/**\\n * Remove the inner padding in Chrome and Safari on macOS.\\n */\\n[type=\\\"search\\\"]::-webkit-search-decoration {\\n  -webkit-appearance: none; }\\n\\n/**\\n * 1. Correct the inability to style clickable types in iOS and Safari.\\n * 2. Change font properties to `inherit` in Safari.\\n */\\n::-webkit-file-upload-button {\\n  -webkit-appearance: button;\\n  /* 1 */\\n  font: inherit;\\n  /* 2 */ }\\n\\n/* Interactive\\n   ========================================================================== */\\n/*\\n * Add the correct display in Edge, IE 10+, and Firefox.\\n */\\ndetails {\\n  display: block; }\\n\\n/*\\n * Add the correct display in all browsers.\\n */\\nsummary {\\n  display: list-item; }\\n\\n/* Misc\\n   ========================================================================== */\\n/**\\n * Add the correct display in IE 10+.\\n */\\ntemplate {\\n  display: none; }\\n\\n/**\\n * Add the correct display in IE 10.\\n */\\n[hidden] {\\n  display: none; }\\n\\nbody {\\n  background-color: #fff; }\\n\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/lib/css-base.js",
+              "name": "./node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+                  "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+                  "module": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+                  "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-86"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
             }
           ],
           "filteredModules": 0,
@@ -872,7 +1232,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "",
-              "request": "!!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
+              "request": "!!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
               "reasons": [
               ]
             }
@@ -882,55 +1242,7 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/lib/css-base.js",
-          "name": "./node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "issuer": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-          "issuerId": 1,
-          "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-          "issuerPath": [
-            {
-              "id": 1,
-              "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-              "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [
-          ],
-          "reasons": [
-            {
-              "moduleId": 1,
-              "moduleIdentifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
-              "module": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-              "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
-              "type": "cjs require",
-              "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-86"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        },
-        {
-          "id": 1,
-          "identifier": "/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss",
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
           "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
           "index": 0,
           "index2": 1,
@@ -958,7 +1270,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "!!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/MyWork/template-module-webpack/src/assets/scss/main.scss"
+              "userRequest": "!!/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss"
             }
           ],
           "usedExports": true,
@@ -968,6 +1280,54 @@
           ],
           "depth": 0,
           "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\\n/* Document\\n   ========================================================================== */\\n/**\\n * 1. Correct the line height in all browsers.\\n * 2. Prevent adjustments of font size after orientation changes in iOS.\\n */\\nhtml {\\n  line-height: 1.15;\\n  /* 1 */\\n  -webkit-text-size-adjust: 100%;\\n  /* 2 */ }\\n\\n/* Sections\\n   ========================================================================== */\\n/**\\n * Remove the margin in all browsers.\\n */\\nbody {\\n  margin: 0; }\\n\\n/**\\n * Correct the font size and margin on `h1` elements within `section` and\\n * `article` contexts in Chrome, Firefox, and Safari.\\n */\\nh1 {\\n  font-size: 2em;\\n  margin: 0.67em 0; }\\n\\n/* Grouping content\\n   ========================================================================== */\\n/**\\n * 1. Add the correct box sizing in Firefox.\\n * 2. Show the overflow in Edge and IE.\\n */\\nhr {\\n  box-sizing: content-box;\\n  /* 1 */\\n  height: 0;\\n  /* 1 */\\n  overflow: visible;\\n  /* 2 */ }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\npre {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/* Text-level semantics\\n   ========================================================================== */\\n/**\\n * Remove the gray background on active links in IE 10.\\n */\\na {\\n  background-color: transparent; }\\n\\n/**\\n * 1. Remove the bottom border in Chrome 57-\\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\\n */\\nabbr[title] {\\n  border-bottom: none;\\n  /* 1 */\\n  text-decoration: underline;\\n  /* 2 */\\n  text-decoration: underline dotted;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font weight in Chrome, Edge, and Safari.\\n */\\nb,\\nstrong {\\n  font-weight: bolder; }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\ncode,\\nkbd,\\nsamp {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font size in all browsers.\\n */\\nsmall {\\n  font-size: 80%; }\\n\\n/**\\n * Prevent `sub` and `sup` elements from affecting the line height in\\n * all browsers.\\n */\\nsub,\\nsup {\\n  font-size: 75%;\\n  line-height: 0;\\n  position: relative;\\n  vertical-align: baseline; }\\n\\nsub {\\n  bottom: -0.25em; }\\n\\nsup {\\n  top: -0.5em; }\\n\\n/* Embedded content\\n   ========================================================================== */\\n/**\\n * Remove the border on images inside links in IE 10.\\n */\\nimg {\\n  border-style: none; }\\n\\n/* Forms\\n   ========================================================================== */\\n/**\\n * 1. Change the font styles in all browsers.\\n * 2. Remove the margin in Firefox and Safari.\\n */\\nbutton,\\ninput,\\noptgroup,\\nselect,\\ntextarea {\\n  font-family: inherit;\\n  /* 1 */\\n  font-size: 100%;\\n  /* 1 */\\n  line-height: 1.15;\\n  /* 1 */\\n  margin: 0;\\n  /* 2 */ }\\n\\n/**\\n * Show the overflow in IE.\\n * 1. Show the overflow in Edge.\\n */\\nbutton,\\ninput {\\n  /* 1 */\\n  overflow: visible; }\\n\\n/**\\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\\n * 1. Remove the inheritance of text transform in Firefox.\\n */\\nbutton,\\nselect {\\n  /* 1 */\\n  text-transform: none; }\\n\\n/**\\n * Correct the inability to style clickable types in iOS and Safari.\\n */\\nbutton,\\n[type=\\\"button\\\"],\\n[type=\\\"reset\\\"],\\n[type=\\\"submit\\\"] {\\n  -webkit-appearance: button; }\\n\\n/**\\n * Remove the inner border and padding in Firefox.\\n */\\nbutton::-moz-focus-inner,\\n[type=\\\"button\\\"]::-moz-focus-inner,\\n[type=\\\"reset\\\"]::-moz-focus-inner,\\n[type=\\\"submit\\\"]::-moz-focus-inner {\\n  border-style: none;\\n  padding: 0; }\\n\\n/**\\n * Restore the focus styles unset by the previous rule.\\n */\\nbutton:-moz-focusring,\\n[type=\\\"button\\\"]:-moz-focusring,\\n[type=\\\"reset\\\"]:-moz-focusring,\\n[type=\\\"submit\\\"]:-moz-focusring {\\n  outline: 1px dotted ButtonText; }\\n\\n/**\\n * Correct the padding in Firefox.\\n */\\nfieldset {\\n  padding: 0.35em 0.75em 0.625em; }\\n\\n/**\\n * 1. Correct the text wrapping in Edge and IE.\\n * 2. Correct the color inheritance from `fieldset` elements in IE.\\n * 3. Remove the padding so developers are not caught out when they zero out\\n *    `fieldset` elements in all browsers.\\n */\\nlegend {\\n  box-sizing: border-box;\\n  /* 1 */\\n  color: inherit;\\n  /* 2 */\\n  display: table;\\n  /* 1 */\\n  max-width: 100%;\\n  /* 1 */\\n  padding: 0;\\n  /* 3 */\\n  white-space: normal;\\n  /* 1 */ }\\n\\n/**\\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\\n */\\nprogress {\\n  vertical-align: baseline; }\\n\\n/**\\n * Remove the default vertical scrollbar in IE 10+.\\n */\\ntextarea {\\n  overflow: auto; }\\n\\n/**\\n * 1. Add the correct box sizing in IE 10.\\n * 2. Remove the padding in IE 10.\\n */\\n[type=\\\"checkbox\\\"],\\n[type=\\\"radio\\\"] {\\n  box-sizing: border-box;\\n  /* 1 */\\n  padding: 0;\\n  /* 2 */ }\\n\\n/**\\n * Correct the cursor style of increment and decrement buttons in Chrome.\\n */\\n[type=\\\"number\\\"]::-webkit-inner-spin-button,\\n[type=\\\"number\\\"]::-webkit-outer-spin-button {\\n  height: auto; }\\n\\n/**\\n * 1. Correct the odd appearance in Chrome and Safari.\\n * 2. Correct the outline style in Safari.\\n */\\n[type=\\\"search\\\"] {\\n  -webkit-appearance: textfield;\\n  /* 1 */\\n  outline-offset: -2px;\\n  /* 2 */ }\\n\\n/**\\n * Remove the inner padding in Chrome and Safari on macOS.\\n */\\n[type=\\\"search\\\"]::-webkit-search-decoration {\\n  -webkit-appearance: none; }\\n\\n/**\\n * 1. Correct the inability to style clickable types in iOS and Safari.\\n * 2. Change font properties to `inherit` in Safari.\\n */\\n::-webkit-file-upload-button {\\n  -webkit-appearance: button;\\n  /* 1 */\\n  font: inherit;\\n  /* 2 */ }\\n\\n/* Interactive\\n   ========================================================================== */\\n/*\\n * Add the correct display in Edge, IE 10+, and Firefox.\\n */\\ndetails {\\n  display: block; }\\n\\n/*\\n * Add the correct display in all browsers.\\n */\\nsummary {\\n  display: list-item; }\\n\\n/* Misc\\n   ========================================================================== */\\n/**\\n * Add the correct display in IE 10+.\\n */\\ntemplate {\\n  display: none; }\\n\\n/**\\n * Add the correct display in IE 10.\\n */\\n[hidden] {\\n  display: none; }\\n\\nbody {\\n  background-color: #fff; }\\n\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/lib/css-base.js",
+          "name": "./node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+              "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/bneigher/Desktop/template-module-webpack/node_modules/css-loader/index.js!/Users/bneigher/Desktop/template-module-webpack/node_modules/sass-loader/lib/loader.js!/Users/bneigher/Desktop/template-module-webpack/src/assets/scss/main.scss",
+              "module": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+              "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/assets/scss/main.scss",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-86"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
         }
       ],
       "filteredModules": 0,

@@ -1,9 +1,6 @@
-'use strict';
-
 const PackageJSON = require('../package.json');
 const Path = require('path');
-const Webpack = require('webpack');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -65,7 +62,9 @@ module.exports = [{
     library: PackageJSON.name,
     libraryTarget: 'umd',
     path: Path.resolve(__dirname, '../dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    umdNamedDefine: true,
+    globalObject: 'this'
   },
 
   optimization: {
@@ -105,7 +104,7 @@ module.exports = [{
       reportFilename: 'webpack_report.html',
       openAnalyzer: false,
       generateStatsFile: true,
-      statsFilename: 'webpack_stats.json',
+      statsFilename: 'webpack_stats.json'
     })
   ],
 
@@ -125,7 +124,7 @@ module.exports = [{
     chunks: true,
     chunkModules: true,
     modules: true,
-    children: true,
+    children: true
   },
 
 
