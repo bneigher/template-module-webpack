@@ -8,7 +8,7 @@
  
 The purpose of this library is to provide a toolkit library for fast development of front-end modules using the most modern of technologies.
 
-This is to be framework agnostic so it can be used with React, Angular, Vue, or whatever other frameworks you so choose.
+This is to be framework agnostic so it can be used with Node, React, Angular, Vue, or whatever other frameworks you so choose.
 
 To use this library in your application import it as follows for the javascript
 
@@ -29,7 +29,15 @@ Webpack Hot Module Replacement (HMR), ES6, SASS, Linting, Unit Tests, and Sandbo
   $ npm i
 ```
 
-## Development
+## Testing
+
+Start the Jest Auto Test interface
+
+```sh
+  $ npm run test
+```
+
+## UI based Development
 
 Start the Webpack server (includes live reloading + hot module replacement when you change files):
 

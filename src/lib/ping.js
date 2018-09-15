@@ -1,5 +1,3 @@
-'use strict'
-
 export default class ping {
 
   constructor() {
@@ -10,5 +8,10 @@ export default class ping {
   listen() {
 
     console.log('...pong');
+  }
+
+  returnThing() {
+
+    return 1;
   }
 }

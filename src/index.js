@@ -1,6 +1,4 @@
-'use stict';
-
-require('./assets/scss');
+import './assets/scss';
 // require('./assets/images') // Not Needed
 // require('./assets/svgs'); // Not Needed
 import library from './lib/ping.js';

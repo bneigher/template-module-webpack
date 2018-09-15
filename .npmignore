@@ -1,1 +1,6 @@
 node_modules
+coverage
+test
+sandbox
+dist/webpack_report.html
+dist/webpack_stats.json
